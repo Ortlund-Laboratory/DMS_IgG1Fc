@@ -40,10 +40,23 @@ And, for `seaborn`, it is necessary to install to a specified folder \(i.e. the 
 
 `pip install --target=/usr/lib/python3.8 seaborn`
 
+When running `snakemake`, it will most likely throw up an error in the package `dna_features_viewer`, which installs along with `alignparse` \(and is called in some of the Jupyter notebooks, so is a required module!\). The error will most likely present as something like this:
 
+`File /usr/lib/python3.8/dna_features_viewer/biotools.py:38
+     34     return complement(sequence)[::-1]
+     36 print(sys.version)
+     37 aa_short_to_long_form_dict = {
+---> 38     _aa1: _aa3[0] + _aa3[1:].lower() for (_aa1, _aa3) in zip(aa1 + "*", aa3 + ["*"])
+     39 }
+     42 def translate(dna_sequence, long_form=False):
+     43     """Translate the DNA sequence into an amino-acids sequence MLKYQT...
+     44 
+     45     If long_form is true, a list of 3-letter amino acid representations
+     46     is returned instead (['Ala', 'Ser', ...]).
+     47     """
 
-
-
+TypeError: can only concatenate tuple (not "str") to tuple
+TypeError: can only concatenate tuple (not "str") to tuple`
 
 ### Input Data
 
