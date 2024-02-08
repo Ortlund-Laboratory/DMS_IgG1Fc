@@ -42,7 +42,8 @@ And, for `seaborn`, it is necessary to install to a specified folder \(i.e. the 
 
 When running `snakemake`, it will most likely throw up an error in the package `dna_features_viewer`, which installs along with `alignparse` \(and is called in some of the Jupyter notebooks, so is a required module!\). The error will most likely present as something like this:
 
-`File /usr/lib/python3.8/dna_features_viewer/biotools.py:38
+```
+File /usr/lib/python3.8/dna_features_viewer/biotools.py:38
      34     return complement(sequence)[::-1]
      36 print(sys.version)
      37 aa_short_to_long_form_dict = {
@@ -56,7 +57,8 @@ When running `snakemake`, it will most likely throw up an error in the package `
      47     """
 
 TypeError: can only concatenate tuple (not "str") to tuple
-TypeError: can only concatenate tuple (not "str") to tuple`
+TypeError: can only concatenate tuple (not "str") to tuple
+```
 
 ### Input Data
 
