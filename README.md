@@ -28,7 +28,12 @@ Now navigate to the new snakemake environment:
 
 `conda activate snakemake`
 
-Now that the environment has been set up, various modules need to be installed. Some dependency conflicts can arise. The dms_variants and alignparse packages were specifically designed for python 3.7, but the snakemake package typically installs with a newer version of python, and conflicts can arise if we start to mix different python versions within the one environment. I’ve found that the best way round this issue is to install everything necessary using the default python version which comes with snakemake \(in our case, python 3.8\). Another complication is that most of the required packages install with pip, not conda, but this does not seem to present any issues. 
+Now that the environment has been set up, various modules need to be installed. Some dependency conflicts can arise. The dms_variants and alignparse packages were specifically designed for python 3.7, but the snakemake package typically installs with a newer version of python, and conflicts can arise if we start to mix different python versions within the one environment. I’ve found that the best way round this issue is to install everything necessary using the default python version which comes with snakemake \(in our case, python 3.8\). Another complication is that most of the required packages install with pip, not conda, but this does not seem to present any issues. The required packages are:
+
+`pip install jupyter`
+`pip install seaborn`
+pip install dms_variants
+pip install alignparse
 
 
 
