@@ -60,5 +60,22 @@ TypeError: can only concatenate tuple (not "str") to tuple
 TypeError: can only concatenate tuple (not "str") to tuple
 ```
 
+This error appears in a function which is not necessary for our analysis. Therefore, we can manipulate `biotools.py` (in our case, contained in folder, `/usr/lib/python3.8/dna_features_viewer/` but it could be in a different location depending on where these packages installed). We then comment out the reverse_complement function:
+
+```
+# def reverse_complement(sequence):
+#    """Return the reverse-complement of the DNA sequence.
+#
+#    For instance ``complement("ATGCCG")`` returns ``"GCCGTA"``.
+#
+#    Uses BioPython for speed.
+#    """
+#    return complement(sequence)[::-1]
+#
+#aa_short_to_long_form_dict = {
+#    _aa1: _aa3[0] + _aa3[1:].lower() for (_aa1, _aa3) in zip(aa1 + "*", aa3 + ["*"])
+#}
+```
+
 ### Input Data
 
