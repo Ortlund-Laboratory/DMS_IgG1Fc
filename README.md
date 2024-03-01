@@ -77,7 +77,11 @@ This error appears in a function which is not necessary for our analysis. Theref
 #}
 ```
 
-### Input Data
+### PacBio Library Sequencing
+
+
+
+### Input Data for Analyses
 
 Input files differ depending on the type of analysis (enrichment/escape populations or titrations) being performed. I have prepared examples for each in two relevant subfolders, [example_enrichment_escape](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/example_enrichment_escape) and [example_titration](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/example_titration).
 
