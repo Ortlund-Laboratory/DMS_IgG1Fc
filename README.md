@@ -12,7 +12,7 @@ Installation of `mamba` (another package manager) is then required since snakema
 
 `conda install conda=4.12`
 
-`mamba installation:
+`mamba` installation:
 
 `conda install -n base -c conda-forge mamba`
 
