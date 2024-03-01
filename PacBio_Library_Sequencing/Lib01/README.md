@@ -12,3 +12,8 @@ GeneBank data file describing sequence features.
 List of sequence (fastq) files to be analyzed.
 ### XXX.fastq
 Input circular consensus sequences (CCSs) data file.
+### process_ccs.ipynb
+Jupyter notebook for extracting barcodes from CCSs and matching to variants.
+
+## Workflow
+
