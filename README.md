@@ -79,3 +79,5 @@ This error appears in a function which is not necessary for our analysis. Theref
 
 ### Input Data
 
+Input files differ depending on the type of analysis (enrichment/escape populations or titrations) being performed. I have prepared examples for each in two relevant subfolders, 
+
