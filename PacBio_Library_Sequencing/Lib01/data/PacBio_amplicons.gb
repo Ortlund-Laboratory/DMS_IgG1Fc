@@ -1,0 +1,70 @@
+LOCUS       Fc                  1027 bp    DNA        linear       11-APR-2022
+DEFINITION  PacBio amplicon for Fc
+ACCESSION   None
+VERSION
+SOURCE      Alasdair Keith
+  ORGANISM  .
+COMMENT     PacBio amplicon for Fc libraries.
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     termini5        1..120
+                     /locus_tag="termini5"
+                     /label="termini5"
+                     /ApEinfo_label="termini5"
+                     /ApEinfo_fwdcolor="#fefb00"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     spacer          817..1005
+                     /locus_tag="spacer"
+                     /label="spacer"
+                     /ApEinfo_label="spacer"
+                     /ApEinfo_fwdcolor="#fefb00"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     barcode         1006..1020
+                     /locus_tag="barcode"
+                     /label="barcode"
+                     /ApEinfo_label="barcode"
+                     /ApEinfo_fwdcolor="#00f900"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     termini3        1021..1027
+                     /locus_tag="termini3"
+                     /label="termini3"
+                     /ApEinfo_label="termini3"
+                     /ApEinfo_fwdcolor="#fefb00"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     gene            121..816
+                     /locus_tag="RBD"
+                     /label="RBD"
+                     /ApEinfo_label="RBD"
+                     /ApEinfo_fwdcolor="#00fcff"
+                     /ApEinfo_revcolor="#00fcff"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+
+ORIGIN
+        1 atggagttcg ggctcagctg ggtgtttttg gtagctctct ttagaggagt gcagtgcgga
+       61 gggtccgagc agaaactgat atcagaagag gatcttgggg ggtcaggagg gagcggtgga
+      121 GAGCCCAAAT CTTGTGACAA AACTCACACA TGCCCACCGT GCCCAGCACC TGAACTCCTG
+      181 GGGGGACCGT CAGTCTTCCT CTTCCCCCCA AAACCCAAGG ACACCCTCAT GATCTCCCGG
+      241 ACCCCTGAGG TCACATGCGT GGTGGTGGAC GTGAGCCACG AAGACCCTGA GGTCAAGTTC
+      301 AACTGGTACG TGGACGGCGT GGAGGTGCAT AATGCCAAGA CAAAGCCGCG GGAGGAGCAG
+      361 TACAACAGCA CGTACCGTGT GGTCAGCGTC CTCACCGTCC TGCACCAGGA CTGGCTGAAT
+      421 GGCAAGGAGT ACAAGTGCAA GGTCTCCAAC AAAGCCCTCC CAGCCCCCAT CGAGAAAACC
+      481 ATCTCCAAAG CCAAAGGGCA GCCCCGAGAA CCACAGGTGT ACACCCTGCC CCCATCCCGG
+      541 GATGAGTTGA CCAAGAACCA GGTCAGCCTG ACCTGCCTGG TCAAAGGCTT CTATCCCAGC
+      601 GACATCGCCG TGGAGTGGGA GAGCAATGGG CAGCCGGAGA ACAACTACAA GACCACGCCT
+      661 CCCGTGCTGG ACTCCGACGG CTCCTTCTTC CTCTATAGCA AGCTCACCGT GGACAAGAGC
+      721 AGGTGGCAGC AGGGGAACGT CTTCTCATGC TCCGTGATGC ATGAGGCTCT GCACAACCAC
+      781 TACACGCAGA AGAGCCTCTC CCTGTCCCCG GGTAAAtccg gtggctccgg cggctctggc
+      841 gggagtggtg ggtcagcagt cggccaggat acacaagaag tgattgttgt gccccactcc
+      901 cttcctttta aagtggtcgt gatttctgct atacttgccc tggtcgtact cactatcatt
+      961 tcccttatta ttctcatcat gctgtggcag aagaagccac gttaaNNNNN NNNNNNNNNN
+     1021 gcggatc
+//
