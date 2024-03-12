@@ -1,0 +1,50 @@
+# config for analysis
+
+# most CPUs to ever use at once
+max_cpus: 16
+
+# amplicons sequenced by PacBio
+amplicons: data/PacBio_amplicons.gb
+
+# the primary target for which we are calling mutations
+primary_target: Fc
+
+# how to parse the amplicon
+feature_parse_specs: data/feature_parse_specs.yaml
+
+# do we get the sequencing data from the 'HutchServer' or 'SRA'?
+seqdata_source: HutchServer
+
+# list of PacBio sequencing runs linking barcodes to variants
+pacbio_runs: data/PacBio_runs.csv
+
+# list of Illumina sequencing runs of barcodes
+barcode_runs: data/barcode_runs.csv
+
+# output directories / files
+summary_dir: results/summary
+ccs_dir: results/ccs
+process_ccs_dir: results/process_ccs
+processed_ccs_file: results/process_ccs/processed_ccs.csv
+figs_dir: results/figures
+
+# parameters for running PacBio `ccs` program
+min_ccs_accuracy: 0.999
+min_ccs_passes: 3
+min_ccs_length: 50
+max_ccs_length: 5000
+
+# max error rate in gene / barcode CCSs retained for consensu building
+max_error_rate: 0.0001
+
+# Parameters for processing Illumina barcodes, assuming this structure:
+#  [R2 binds] - [upstream] - [barcode] - [downstream] - [R1 binds]
+#  This orientation is hard-wired in the barcode parser, but here it is opposite
+#  Therefore, supplied the "downstream" sequence as reverse complemented upstream
+# Passed to `dms_variants.illuminabarcodeparser.IlluminaBarcodeParser`:
+illumina_barcode_parser_params:
+  upstream: GCGGATC
+  downstream: GCAGAAGAAGCCACGTTAA
+  minq: 20
+  upstream_mismatch: 3
+  downstream_mismatch: 3
