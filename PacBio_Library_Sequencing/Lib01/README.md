@@ -2,17 +2,17 @@
 
 ## Input Files Required
 
-#### config.yaml
+config.yaml
 Configuration script controlling variables used by Jupyter notebook.
-#### data/feature_parse_specs.yaml
+data/feature_parse_specs.yaml
 Script for controlling the sequence parsing strategy.
-#### data/PacBio_amplicons.gb
+data/PacBio_amplicons.gb
 GeneBank data file describing sequence features.
-### data/PacBio_runs.csv
+data/PacBio_runs.csv
 List of sequence (fastq) files to be analyzed.
-#### results/ccs/XXX.fastq
+results/ccs/XXX.fastq
 Input circular consensus sequences (CCSs) data file.
-#### process_ccs.ipynb
+process_ccs.ipynb
 Jupyter notebook for extracting barcodes from CCSs and matching to variants.
 
 ## Setup
