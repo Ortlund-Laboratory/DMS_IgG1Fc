@@ -2,17 +2,17 @@
 
 ## Input Files Required
 
-config.yaml<br>
+**config.yaml**<br>
 Configuration script controlling variables used by Jupyter notebook.<br>
-data/feature_parse_specs.yaml<br>
+**data/feature_parse_specs.yaml**<br>
 Script for controlling the sequence parsing strategy.<br>
-data/PacBio_amplicons.gb<br>
+**data/PacBio_amplicons.gb**<br>
 GeneBank data file describing sequence features.<br>
-data/PacBio_runs.csv<br>
+**data/PacBio_runs.csv**<br>
 List of sequence (fastq) files to be analyzed.<br>
-results/ccs/XXX.fastq<br>
+**results/ccs/XXX.fastq**<br>
 Input circular consensus sequences (CCSs) data file.<br>
-process_ccs.ipynb<br>
+**process_ccs.ipynb**<br>
 Jupyter notebook for extracting barcodes from CCSs and matching to variants.<br>
 
 ## Setup
@@ -33,6 +33,6 @@ Run `jupyter`:
 
 ## Key Output
 
-results/process_ccs/processed_ccs.csv<br>
+**results/process_ccs/processed_ccs.csv**<br>
 List of parsed barcodes and their associated mutations.
 
