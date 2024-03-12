@@ -8,4 +8,4 @@ Lib01 is the primary library used for our analyses. We created Lib02 for cross-v
 
 Please refer to [Lib02](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/PacBio_Library_Sequencing/Lib02) for the raw statistics for that library. Please refer to [Lib01](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/PacBio_Library_Sequencing/Lib01) for the raw data for that library, plus a more detailed guide outlining the workflow.
 
-Input fastq files are too large for GitHub, and can be found at the following online repository (give link here!)
+Input fastq files are too large for GitHub, and can be found at the following online repository (give link here!)(Submit to Sequence Read Archive (SRA) when ready?)
