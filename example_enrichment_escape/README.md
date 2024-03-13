@@ -9,3 +9,14 @@ Gives overall instructions for the `snakemake` workflow.
 
 
 ### Sequencing Data
+
+
+## Workflow
+
+Use the `snakemake` environment:
+
+`conda activate snakemake`
+
+Run `snakemake` using specified number of cores:
+
+`snakemake -j 6`
