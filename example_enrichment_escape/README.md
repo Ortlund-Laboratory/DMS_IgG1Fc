@@ -56,6 +56,6 @@ Tally of individual barcode counts for each sample.<br>
 
 ## Data Visualization
 
-Go to [scores_and_visualization](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/example_enrichment_escape/scores_and_visualization) for count to enrichment/escape score conversions, and data visualization.
+Go to [data_visualization](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/example_enrichment_escape/data_visualization) for heatmap generation.
 
 
