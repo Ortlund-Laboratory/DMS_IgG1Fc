@@ -16,7 +16,7 @@ Counts the number of times a barcode (and by extension a variant) appears in eac
 Runs Jupyter notebooks and creates Mardown output.<br>
 [data/feature_parse_specs.yaml](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/data/feature_parse_specs.yaml)<br>
 Script for controlling the sequence parsing strategy.<br>
-[data/PacBio_amplicons.gb]()<br>
+[data/PacBio_amplicons.gb](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/data/PacBio_amplicons.gb)<br>
 GeneBank data file describing sequence features.<br>
 
 
