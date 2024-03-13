@@ -19,4 +19,11 @@ sed -n '/exp01-none-0-reference/p' variant_counts.csv > ref_variant_counts.txt
 sed -n '/exp02-JD280top-2000-escape/p' variant_counts.csv > enrich_variant_counts.txt
 sed -n '/exp03-JD280bottom-2000-escape/p' variant_counts.csv > escape_variant_counts.txt
 ```
+Then reformat each file so that they just contain tab-separated columns for barcode, mutation and count.
+```
+awk '{print $4, $8, $5}' FS="," OFS="\t" ref_variant_counts.txt > tmp.txt && mv tmp.txt ref_variant_counts.txt
+awk '{print $4, $8, $5}' FS="," OFS="\t" enrich_variant_counts.txt > tmp.txt && mv tmp.txt enrich_variant_counts.txt
+awk '{print $4, $8, $5}' FS="," OFS="\t" escape_variant_counts.txt > tmp.txt && mv tmp.txt escape_variant_counts.txt
+```
+Finally, add tab-separated headers (barcode  mutation  count) for each of these files.
 
