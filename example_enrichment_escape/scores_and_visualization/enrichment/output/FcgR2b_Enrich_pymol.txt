@@ -1,0 +1,40 @@
+#Set custom colors with RGB:
+set ray_shadow, 0
+#Set sphere radius:
+set sphere_scale, 0.5
+set ray_trace_mode, 1
+set_color blue_1, [158,202,225]
+set_color blue_2, [8,81,156]
+set_color grey_1, [217,217,217]
+set_color grey_2, [150,150,150]
+color grey_1, Fc_chA
+color grey_2, Fc_chB
+#Select sites to highlight with spheres:
+create spheresB1, Fc_chB and (resi 0 or resi 232 or resi 250 or resi 290 or resi 302 or resi 339 or resi 341 or resi 375 or resi 376 or resi 378 or resi 379 or resi 399 or resi 405 )
+set sphere_color, blue_1, spheresB1
+hide everything, spheresB1
+show spheres, spheresB1 and name CA
+create spheresB2, Fc_chB and (resi 0 or resi 247 or resi 267 or resi 268 or resi 273 or resi 326 or resi 328 or resi 372 or resi 374 or resi 377 or resi 394 or resi 396 or resi 397 or resi 404 or resi 408 )
+hide everything, spheresB2
+show spheres, spheresB2 and name CA
+set sphere_color, blue_2, spheresB2
+create surface_B, Fc_chB
+select surf_high_B1, surface_B and (resi 0 or resi 232 or resi 250 or resi 290 or resi 302 or resi 339 or resi 341 or resi 375 or resi 376 or resi 378 or resi 379 or resi 399 or resi 405 )
+select surf_high_B2, surface_B and (resi 0 or resi 247 or resi 267 or resi 268 or resi 273 or resi 326 or resi 328 or resi 372 or resi 374 or resi 377 or resi 394 or resi 396 or resi 397 or resi 404 or resi 408 )
+color blue_1, surf_high_B1
+color blue_2, surf_high_B2
+show surface, surface_B
+create spheresA1, Fc_chA and (resi 0 or resi 232 or resi 250 or resi 290 or resi 302 or resi 339 or resi 341 or resi 375 or resi 376 or resi 378 or resi 379 or resi 399 or resi 405 )
+set sphere_color, blue_1, spheresA1
+hide everything, spheresA1
+show spheres, spheresA1 and name CA
+create spheresA2, Fc_chA and (resi 0 or resi 247 or resi 267 or resi 268 or resi 273 or resi 326 or resi 328 or resi 372 or resi 374 or resi 377 or resi 394 or resi 396 or resi 397 or resi 404 or resi 408 )
+hide everything, spheresA2
+show spheres, spheresA2 and name CA
+set sphere_color, blue_2, spheresA2
+create surface_A, Fc_chA
+select surf_high_A1, surface_A and (resi 0 or resi 232 or resi 250 or resi 290 or resi 302 or resi 339 or resi 341 or resi 375 or resi 376 or resi 378 or resi 379 or resi 399 or resi 405 )
+select surf_high_A2, surface_A and (resi 0 or resi 247 or resi 267 or resi 268 or resi 273 or resi 326 or resi 328 or resi 372 or resi 374 or resi 377 or resi 394 or resi 396 or resi 397 or resi 404 or resi 408 )
+color blue_1, surf_high_A1
+color blue_2, surf_high_A2
+show surface, surface_A
