@@ -8,7 +8,7 @@ Configuration script controlling variables used by Jupyter notebook.<br>
 Script for controlling the sequence parsing strategy.<br>
 [data/PacBio_amplicons.gb](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/PacBio_Library_Sequencing/Lib01/data/PacBio_amplicons.gb)<br>
 GeneBank data file describing sequence features.<br>
-**data/PacBio_runs.csv**<br>
+[data/PacBio_runs.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/PacBio_Library_Sequencing/Lib01/data/PacBio_runs.csv)<br>
 List of sequence (fastq) files to be analyzed.<br>
 **results/ccs/XXX.fastq**<br>
 Input circular consensus sequences (CCSs) data file.<br>
