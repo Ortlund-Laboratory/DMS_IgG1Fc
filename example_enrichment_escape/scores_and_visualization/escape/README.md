@@ -2,7 +2,7 @@
 
 [BarcodeMapping_FcgR2b_escape.R](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/scores_and_visualization/escape/BarcodeMapping_FcgR2b_escape.R)<br>
 R script to calculate escape scores from reference and escape counts, generate heatmaps and produce files to map scores onto structures.<br>
-[ref_variant_counts.txt](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/scores_and_visualization/enrichment/ref_variant_counts.txt)<br>
+[ref_variant_counts.txt](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/scores_and_visualization/escape/ref_variant_counts.txt)<br>
 Barcode counts for the reference sample.<br>
 [escape_variant_counts.txt](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/scores_and_visualization/enrichment/enrich_variant_counts.txt)<br>
 Barcode counts for the escape sample.<br>
