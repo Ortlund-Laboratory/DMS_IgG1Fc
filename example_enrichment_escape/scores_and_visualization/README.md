@@ -6,7 +6,7 @@ In our example, by referring to [barcode_runs.csv](https://github.com/Ortlund-La
 
 **NOTE**: Though the above enrichment sample has escape in its title, this was due to naming conventions in some of the Jupyter scripts, which requires samples to be classified as either 'reference' or 'escape'. In our naming system, samples which have 'top' in their titles denote enrichment populations, and samples with 'bottom' in their titles denote escape populations.
 
-For compatibility with our R scripts, we require the information in [variant_counts.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/results/counts/variant_counts.csv) to be split into three-column (barcode,mutation,count) files.
+For compatibility with our R scripts, we require the information in [variant_counts.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/results/counts/variant_counts.csv) to be split into three-column (barcode,mutation,count) files. This is very simple and you can write a script to do this if you like.
 
 First, remove all variants where the number of amino acid mutations is 0 (i.e. is still wildtype) or greater than 1 (multiple point mutations).
 
