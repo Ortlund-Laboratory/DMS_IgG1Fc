@@ -37,7 +37,7 @@ The workflow operates on Illumina barcode sequencing data in fastq.gz format and
 **p23042-s006_JD280top_S27_L001_R2_001.fastq.gz** (give link here)<br>
 **p23042-s007_JD280bottom_S28_L001_R2_001.fastq.gz** (give link here)<br>
 
-## Workflow to Count Variants
+## Workflow
 
 Use the `snakemake` environment:
 
@@ -54,7 +54,7 @@ Tally of barcodes classified and filtered according to quality.<br>
 [results/counts/variant_counts.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/results/counts/variant_counts.csv)<br>
 Tally of individual barcode counts for each sample.<br>
 
-## Convert Counts to Enrichment/Escape Scores and Visualize Data
+## Data Visualization
 
 Go to [scores_and_visualization](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/example_enrichment_escape/scores_and_visualization) for count to enrichment/escape score conversions, and data visualization.
 
