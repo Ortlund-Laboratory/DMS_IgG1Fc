@@ -15,14 +15,14 @@ Converts barcodes located at the R2 end to the R1 end by taking the reverse comp
 [count_variants.ipynb](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/count_variants.ipynb)<br>
 Counts the number of times a barcode (and by extension a variant) appears in each Illumina barcode sequencing sample.<br>
 **counts_to_scores.ipynb**<br>
-Groups barcodes and computes enrichment and/or escape scores.<br>
+Computes enrichment and/or escape scores per barcode.<br>
 [scripts/run_nb.py](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/scripts/run_nb.py)<br>
 Runs Jupyter notebooks and creates Mardown output.<br>
 [data/feature_parse_specs.yaml](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/data/feature_parse_specs.yaml)<br>
 Script for controlling the sequence parsing strategy.<br>
 [data/PacBio_amplicons.gb](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/data/PacBio_amplicons.gb)<br>
 GeneBank data file describing sequence features.<br>
-[data/barcode_runs.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/data/barcode_runs.csv)<br>
+**data/barcode_runs.csv**<br>
 List of Illumina barcode samples to be analyzed by the snakemake workflow.<br>
 [data/processed_ccs.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/data/processed_ccs.csv)<br>
 Processed PacBio CCSs, generated from our [PacBio_Library_Sequencing](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/PacBio_Library_Sequencing) routine. Ensure the library is consistent with those used for the assay.<br>
@@ -53,6 +53,8 @@ Run `snakemake` using specified number of cores:
 Tally of barcodes classified and filtered according to quality.<br>
 [results/counts/variant_counts.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/results/counts/variant_counts.csv)<br>
 Tally of individual barcode counts for each sample.<br>
+**results/escape_scores/scores.csv**
+Log of escape scores per barcode.
 
 ## Data Visualization
 
