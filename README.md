@@ -77,11 +77,15 @@ This error appears in a function which is not necessary for our analysis. Theref
 #}
 ```
 
-### PacBio Library Sequencing
+## PacBio Library Sequencing
 
 PacBio library sequencing is required to connect variants to their respective barcodes. This process is described in [PacBio_Library_Sequencing](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/PacBio_Library_Sequencing).
 
-### Input Data for Analyses
+## Example Workflows
 
-Input files differ depending on the type of analysis (enrichment/escape populations or titrations) being performed. I have prepared examples for each in two relevant subfolders, [example_enrichment_escape](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/example_enrichment_escape) and [example_titration](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/example_titration).
+Input files and scripts differ depending on the type of analysis (enrichment/escape populations or titrations) being performed. Examples for each have been prepared in two relevant subfolders, [example_enrichment_escape](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/example_enrichment_escape) and [example_titration](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/example_titration).
+
+## Deposited Data
+
+Relevant input/output data are deposited in the **deposted data** subfolder. Large sequencing files which cannot be maintained on GitHub are provided in external databases, and links are provided. Between these and the example workflows, users should be able to recreate our results. Should issues arise, please contact adkeith@emory.edu or eortlun@emory.edu. 
 
