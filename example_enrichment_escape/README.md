@@ -18,6 +18,8 @@ Runs Jupyter notebooks and creates Mardown output.<br>
 Script for controlling the sequence parsing strategy.<br>
 [data/PacBio_amplicons.gb](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/data/PacBio_amplicons.gb)<br>
 GeneBank data file describing sequence features.<br>
+[data/barcode_runs.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/data/barcode_runs.csv)<br>
+List of Illumina barcode samples to be analyzed by the snakemake workflow.<br>
 
 
 ### Sequencing Data
