@@ -11,6 +11,10 @@ For compatibility with our R scripts, we require the information in [variant_cou
 First, remove all variants where the number of amino acid mutations is 0 (i.e. is still wildtype) or greater than 1 (multiple point mutations).
 
 ```
+awk -F',' '!($10!=1)' variant_counts.csv > tmp.csv && mv tmp.csv variant_counts.csv
+```
+
+```
 sed -n '/exp01-none-0-reference/p' variant_counts.csv > ref_variant_counts.txt
 sed -n '/exp02-JD280top-2000-escape/p' variant_counts.csv > enrich_variant_counts.txt
 sed -n '/exp03-JD280bottom-2000-escape/p' variant_counts.csv > escape_variant_counts.txt
