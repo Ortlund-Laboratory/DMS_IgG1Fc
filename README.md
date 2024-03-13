@@ -87,5 +87,5 @@ Input files and scripts differ depending on the type of analysis (enrichment/esc
 
 ## Deposited Data
 
-Relevant input/output data are deposited in the **deposted data** subfolder. Large sequencing files which cannot be maintained on GitHub are provided in external databases, and links are provided. Between these and the example workflows, users should be able to recreate our results. Should issues arise, please contact adkeith@emory.edu or eortlun@emory.edu. 
+Relevant input/output data are deposited in the [Deposited_Data](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/Deposited_Data) subfolder. Large sequencing files which cannot be maintained on GitHub are provided in external databases, and links are provided. Between these and the example workflows, users should be able to recreate our results. Should issues arise, please contact adkeith@emory.edu or eortlun@emory.edu. 
 
