@@ -51,11 +51,9 @@ Run `snakemake` using specified number of cores:
 Tally of barcodes classified and filtered according to quality.<br>
 [results/counts/variant_counts.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/results/counts/variant_counts.csv)<br>
 Tally of individual barcode counts for each sample.<br>
-**results/escape_scores/scores.csv**
-Log of escape scores per barcode.
 
 ## Data Visualization
 
-Go to [visualization](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/example_enrichment_escape/visualization) for heatmap generation.
+Go to [scores_and_visualization](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/example_enrichment_escape/visualization) for heatmap generation.
 
 
