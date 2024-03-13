@@ -49,6 +49,6 @@ Run `snakemake` using specified number of cores:
 
 ## Convert Counts to Enrichment/Escape Scores and Visualize Data
 
-Go to 
+Go to [scores_and_visualization](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/example_enrichment_escape/scores_and_visualization) for count to enrichment/escape score conversions, and data visualization.
 
 
