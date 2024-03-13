@@ -16,3 +16,6 @@ rstudio BarcodeMapping_FcgR2b_escape.R
 ```
 
 ## Key Output
+
+[FcgR2b_Enrich_fractions.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/scores_and_visualization/enrichment/output/FcgR2b_Enrich_fractions.csv)<br>
+Log of each mutation and its associated enrichment score.<br>
