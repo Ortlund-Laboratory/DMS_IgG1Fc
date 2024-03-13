@@ -1,0 +1,4 @@
+library,sample,date,experiment,antibody,concentration,concentration_units,group,selection,frac_escape,cells_sorted,R1
+Fc-Lib01,exp01-none-0-reference,230308,exp01,none,0,ng_per_mL,none,reference,NaN,5000000,/home/adkeith@Eu.Emory.Edu/DMS_Workflow/Fc_Data/example_enrichment_escape_cleaned/p23042-s001_FcLib-1ref_S22_L001_R2_001.fastq.gz
+Fc-Lib01,exp02-JD280top-2000-escape,230308,exp02,JD280top,2000,ng_per_mL,DK,escape,0.15,1000000,/home/adkeith@Eu.Emory.Edu/DMS_Workflow/Fc_Data/example_enrichment_escape_cleaned/p23042-s006_JD280top_S27_L001_R2_001.fastq.gz
+Fc-Lib01,exp03-JD280bottom-2000-escape,230308,exp03,JD280bottom,2000,ng_per_mL,DK,escape,0.15,1000000,/home/adkeith@Eu.Emory.Edu/DMS_Workflow/Fc_Data/example_enrichment_escape_cleaned/p23042-s007_JD280bottom_S28_L001_R2_001.fastq.gz
