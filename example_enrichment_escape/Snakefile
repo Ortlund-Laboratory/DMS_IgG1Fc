@@ -1,0 +1,133 @@
+"""``snakemake`` file that runs entire analysis."""
+
+# Imports ---------------------------------------------------------------------
+import os.path
+import textwrap
+import urllib.request
+
+import pandas as pd
+
+# Configuration  --------------------------------------------------------------
+configfile: 'config.yaml'
+
+# run "quick" rules locally:
+localrules: make_dag,
+            make_summary
+
+# Functions -------------------------------------------------------------------
+def nb_markdown(nb):
+    """Return path to Markdown results of notebook `nb`."""
+    return os.path.join(config['summary_dir'],
+                        os.path.basename(os.path.splitext(nb)[0]) + '.md')
+
+# information on samples and barcode runs -------------------------------------
+barcode_runs = pd.read_csv(config['barcode_runs'])
+
+# combination of the *library* and *sample* columns should be unique.
+assert len(barcode_runs.groupby(['library', 'sample'])) == len(barcode_runs)
+
+# *sample* should be the hyphen separated concatenation of
+# *experiment*, *antibody*, *concentration*, and *selection*.
+sample_vs_expect = (
+    barcode_runs
+    .assign(expect=lambda x: x[['experiment', 'antibody', 'concentration',
+                                'selection']]
+                             .apply(lambda r: '-'.join(r.values.astype(str)),
+                                    axis=1),
+            equal=lambda x: x['sample'] == x['expect'],
+            )
+    )
+assert sample_vs_expect['equal'].all(), sample_vs_expect.query('equal != True')
+
+# Rules -----------------------------------------------------------------------
+
+# this is the target rule (in place of `all`) since it first rule listed
+rule make_summary:
+    """Create Markdown summary of analysis."""
+    input:
+        dag=os.path.join(config['summary_dir'], 'dag.svg'),
+ 	build_variants=nb_markdown('build_variants.ipynb'),
+        codon_variant_table=config['codon_variant_table'],
+        reverse_transcribe_barcodes=config['R2_to_R1'],
+        count_variants=nb_markdown('count_variants.ipynb'),
+        variant_counts=config['variant_counts'],
+    output:
+        summary = os.path.join(config['summary_dir'], 'summary.md')
+    run:
+        def path(f):
+            """Get path relative to `summary_dir`."""
+            return os.path.relpath(f, config['summary_dir'])
+        with open(output.summary, 'w') as f:
+            f.write(textwrap.dedent(f"""
+            # Summary
+
+            Analysis run by [Snakefile]({path(workflow.snakefile)})
+            using [this config file]({path(workflow.configfiles[0])}).
+            See the [README in the top directory]({path('README.md')})
+            for details.
+
+            Here is the DAG of the computational workflow:
+            ![{path(input.dag)}]({path(input.dag)})
+
+            Here is the Markdown output of each notebook in the workflow:
+
+            1. [Build variants from CCSs]({path(input.build_variants)}).
+               Creates a [codon variant table]({path(input.codon_variant_table)})
+               linking barcodes to the mutations in the variants.
+            
+            2. [Reverse transcribe barcodes to get from R2 to R1]
+
+            3. [Count variants]({path(input.count_variants)}) to create a
+               [variant counts file]({path(input.variant_counts)}).
+
+
+
+            """
+            ).strip())
+
+rule make_dag:
+    # error message, but works: https://github.com/sequana/sequana/issues/115
+    input:
+        workflow.snakefile
+    output:
+        os.path.join(config['summary_dir'], 'dag.svg')
+    shell:
+        "snakemake --forceall --dag | dot -Tsvg > {output}"
+
+rule count_variants:
+    """Count variants from Illumina barcode runs."""
+    input:
+        config['codon_variant_table'],
+        config['rt_barcode_runs'],
+        config['wildtype_sequence']
+    output:
+        config['variant_counts'],
+        nb_markdown=nb_markdown('count_variants.ipynb')
+    params:
+        nb='count_variants.ipynb'
+    shell:
+        "python scripts/run_nb.py {params.nb} {output.nb_markdown}"
+
+# adk44 need to reverse transcribe here
+
+rule reverse_transcribe_barcodes:
+    """Reverse transcribe sequences so that barcodes can be read in R1 not R1 format."""
+    input:
+        config['R2_to_R1'],
+        config['barcode_runs']
+    output:
+        config['rt_barcode_runs']
+    shell:
+        "python R2_to_R1.py"
+
+rule build_variants:
+    """Build variant table from processed CCSs."""
+    input:
+        config['processed_ccs']
+    output:
+        config['codon_variant_table'],
+        nb_markdown=nb_markdown('build_variants.ipynb')
+    params:
+        nb='build_variants.ipynb'
+    shell:
+        "python scripts/run_nb.py {params.nb} {output.nb_markdown}"
