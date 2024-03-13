@@ -33,6 +33,6 @@ Run `jupyter`:
 
 ## Key Output
 
-**results/process_ccs/processed_ccs.csv**<br>
+[results/process_ccs/processed_ccs.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/PacBio_Library_Sequencing/Lib01/results/process_ccs/processed_ccs.csv)<br>
 List of parsed barcodes and their associated mutations.
 
