@@ -12,7 +12,7 @@ Amino acid sequence for WT Fc. This is required to complete the heatmap.
 ## Workflow
 
 ```
-rstudio BarcodeMapping_FcgR2b_escape.R
+rstudio BarcodeMapping_FcgR2b_enrich.R
 ```
 
 ## Key Output
