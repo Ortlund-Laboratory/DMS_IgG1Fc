@@ -8,3 +8,9 @@ Barcode counts for the reference sample.<br>
 Barcode counts for the enrichment sample.<br>
 [Fc_prot.fasta](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/scores_and_visualization/enrichment/Fc_prot.fasta)
 Amino acid sequence for WT Fc. This is required to complete the heatmap.
+
+## Workflow
+
+```
+rstudio BarcodeMapping_FcgR2b_escape.R
+```
