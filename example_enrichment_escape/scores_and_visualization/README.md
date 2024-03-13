@@ -13,7 +13,7 @@ First, remove all variants where the number of amino acid mutations is 0 (i.e. i
 ```
 awk -F',' '!($10!=1)' variant_counts.csv > tmp.csv && mv tmp.csv variant_counts.csv
 ```
-
+Next step is to separate into reference, enrichment and escape files.
 ```
 sed -n '/exp01-none-0-reference/p' variant_counts.csv > ref_variant_counts.txt
 sed -n '/exp02-JD280top-2000-escape/p' variant_counts.csv > enrich_variant_counts.txt
