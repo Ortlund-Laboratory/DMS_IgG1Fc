@@ -12,7 +12,7 @@ GeneBank data file describing sequence features.<br>
 List of sequence (fastq) files to be analyzed.<br>
 **results/ccs/XXX.fastq**<br>
 Input circular consensus sequences (CCSs) data file.<br>
-**process_ccs.ipynb**<br>
+[process_ccs.ipynb](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/PacBio_Library_Sequencing/Lib01/process_ccs.ipynb)<br>
 Jupyter notebook for extracting barcodes from CCSs and matching to variants.<br>
 
 ## Setup
