@@ -4,7 +4,7 @@
 
 [config.yaml](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/PacBio_Library_Sequencing/Lib01/config.yaml)<br>
 Configuration script controlling variables used by Jupyter notebook.<br>
-**data/feature_parse_specs.yaml**<br>
+[data/feature_parse_specs.yaml](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/PacBio_Library_Sequencing/Lib01/data/feature_parse_specs.yaml)<br>
 Script for controlling the sequence parsing strategy.<br>
 **data/PacBio_amplicons.gb**<br>
 GeneBank data file describing sequence features.<br>
