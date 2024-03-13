@@ -35,7 +35,7 @@ The workflow operates on Illumina barcode sequencing data in fastq.gz format and
 **p23042-s006_JD280top_S27_L001_R2_001.fastq.gz** (give link here)<br>
 **p23042-s007_JD280bottom_S28_L001_R2_001.fastq.gz** (give link here)<br>
 
-## Workflow
+## Workflow to Count Variants
 
 Use the `snakemake` environment:
 
@@ -46,5 +46,9 @@ Run `snakemake` using specified number of cores:
 `snakemake -j 6`
 
 ## Key Output
+
+## Convert Counts to Enrichment/Escape Scores and Visualize Data
+
+Go to 
 
 
