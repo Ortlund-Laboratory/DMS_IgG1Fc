@@ -44,3 +44,7 @@ Use the `snakemake` environment:
 Run `snakemake` using specified number of cores:
 
 `snakemake -j 6`
+
+## Key Output
+
+
