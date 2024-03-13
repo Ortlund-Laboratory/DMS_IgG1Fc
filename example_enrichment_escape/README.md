@@ -4,9 +4,9 @@ Fc variant binding to FcγR2b was investigated, and reference, enrichment and es
 
 ## Input Files Required
 
-[Snakefile](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/Snakefile)<br>
+**SnakeFile**<br>
 Gives overall instructions for the `snakemake` workflow.<br>
-[config.yaml](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/config.yaml)<br>
+**config.yaml**<br>
 Configuration script controlling variables used by Jupyter notebooks.<br>
 [build_variants.ipynb](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/build_variants.ipynb)<br>
 Builds a barcode variant table based on the data from the processed PacBio CCSs.<br>
