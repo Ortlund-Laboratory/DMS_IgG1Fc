@@ -1,0 +1,16 @@
+fate,count,library,sample
+valid barcode,25576780,Fc-Lib01,exp01-none-0-reference
+invalid barcode,16023151,Fc-Lib01,exp01-none-0-reference
+low quality barcode,3930669,Fc-Lib01,exp01-none-0-reference
+unparseable barcode,2674063,Fc-Lib01,exp01-none-0-reference
+failed chastity filter,0,Fc-Lib01,exp01-none-0-reference
+valid barcode,6442367,Fc-Lib01,exp02-FcgR1top-2000-escape
+invalid barcode,3940626,Fc-Lib01,exp02-FcgR1top-2000-escape
+low quality barcode,869134,Fc-Lib01,exp02-FcgR1top-2000-escape
+unparseable barcode,582138,Fc-Lib01,exp02-FcgR1top-2000-escape
+failed chastity filter,0,Fc-Lib01,exp02-FcgR1top-2000-escape
+valid barcode,6206609,Fc-Lib01,exp03-FcgR1bottom-2000-escape
+invalid barcode,4224297,Fc-Lib01,exp03-FcgR1bottom-2000-escape
+low quality barcode,1111394,Fc-Lib01,exp03-FcgR1bottom-2000-escape
+unparseable barcode,600118,Fc-Lib01,exp03-FcgR1bottom-2000-escape
+failed chastity filter,0,Fc-Lib01,exp03-FcgR1bottom-2000-escape
