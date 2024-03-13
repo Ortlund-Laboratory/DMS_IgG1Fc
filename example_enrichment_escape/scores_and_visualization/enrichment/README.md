@@ -6,3 +6,5 @@ R script to calculate enrichment scores from reference and enrichment counts, ge
 Barcode counts for the reference sample.<br>
 [enrich_variant_counts.txt](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/scores_and_visualization/enrichment/enrich_variant_counts.txt)<br>
 Barcode counts for the enrichment sample.<br>
+[Fc_prot.fasta](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/scores_and_visualization/enrichment/Fc_prot.fasta)
+Amino acid sequence for WT Fc. This is required to complete the heatmap.
