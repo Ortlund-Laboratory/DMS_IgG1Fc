@@ -1,5 +1,5 @@
 Need external links for:
 
-Reference sample: **p23111-s043_Fclib-1-Mycpos-ref_S72_L004_R2_001.fastq.gz**<br>
-Enrichment sample: **p23111-s039_FcgR1-Top_S68_L004_R2_001.fastq.gz**<br>
-Escape sample: **p23111-s040_FcgR1-Bottom_S69_L004_R2_001.fastq.gz**<br>
+Reference sample: **p23042-s001_FcLib-1ref_S22_L001_R2_001.fastq.gz**<br>
+Enrichment sample: **p23042-s013_JD278top_S34_L001_R2_001.fastq.gz**<br>
+Escape sample: **p23042-s014_JD278bottom_S197_L002_R2_001.fastq.gz**<br>
