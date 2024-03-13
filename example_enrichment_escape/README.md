@@ -22,6 +22,8 @@ GeneBank data file describing sequence features.<br>
 List of Illumina barcode samples to be analyzed by the snakemake workflow.<br>
 [data/processed_ccs.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/data/processed_ccs.csv)<br>
 Processed PacBio CCSs, generated from our [PacBio_Library_Sequencing](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/PacBio_Library_Sequencing) routine. Ensure the library is consistent with those used for the assay.<br>
+[data/wildtype_sequence.fasta](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/data/wildtype_sequence.fasta)<br>
+Fc wildtype sequence.<br>
 
 
 ### Sequencing Data
