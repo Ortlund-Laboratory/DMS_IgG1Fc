@@ -27,3 +27,5 @@ awk '{print $4, $8, $5}' FS="," OFS="\t" escape_variant_counts.txt > tmp.txt && 
 ```
 Finally, add tab-separated headers (barcode  mutation  count) for each of these files.
 
+Now that we have the input files formatted correctly, we are ready to calculate enrichment/escape scores and to visualize the data. We run these steps in separate enrichment and escape subdirectories.
+
