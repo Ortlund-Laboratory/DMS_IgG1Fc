@@ -47,6 +47,10 @@ Run `snakemake` using specified number of cores:
 
 ## Key Output
 
+[results/counts/barcode_fates.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/results/counts/barcode_fates.csv)<br>
+Tally of barcode classifications based on their quality.<br>
+[results/counts/variant_counts.csv]
+
 ## Convert Counts to Enrichment/Escape Scores and Visualize Data
 
 Go to [scores_and_visualization](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/example_enrichment_escape/scores_and_visualization) for count to enrichment/escape score conversions, and data visualization.
