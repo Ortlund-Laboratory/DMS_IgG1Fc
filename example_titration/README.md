@@ -105,3 +105,9 @@ Tally of barcodes classified and filtered according to quality.<br>
 Tally of individual barcode counts for each sample.<br>
 
 ## *K*<sub>D</sub> Generation & Data Visualization
+
+In the same directory, run:
+
+```
+rstudio FcgR2b_compute_binding_Kd.Rmd
+```
