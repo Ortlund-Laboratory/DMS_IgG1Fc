@@ -71,6 +71,17 @@ The workflow operates on Illumina barcode sequencing data in fastq.gz format and
 **p23096-s039_11-2_S250_L002_R2_001.fastq.gz** (give link here)<br>
 **p23096-s040_11-3_S251_L002_R2_001.fastq.gz** (give link here)<br>
 
+**NOTE**: Not all bins produced a large enough population for sequencing. However, the analysis software requires all bins to be present, and dms_variants cannot read empty files. Therefore, for each empty bin, a filler file prefixed *sparefile_*, is added. These files are all formatted as follows:
+
+```
+@Sparefile 2:N:0
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
++
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+```
+This will ensure the code runs smoothly but will not affect analysis since there is no sequence in the library which contains so many sequential Gs.
+
+
 ## Workflow
 
 Use the `snakemake` environment:
