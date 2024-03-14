@@ -97,7 +97,7 @@ Run `snakemake` using specified number of cores:
 
 `snakemake -j 6`
 
-## Key Output
+## Snakemake Key Output
 
 [results/counts/barcode_fates.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/results/counts/barcode_fates.csv)<br>
 Tally of barcodes classified and filtered according to quality.<br>
@@ -111,5 +111,5 @@ In the same directory, run:
 ```
 rstudio FcgR2b_compute_binding_Kd.Rmd
 ```
-## Key Output
+## Rmd Key Output
 
