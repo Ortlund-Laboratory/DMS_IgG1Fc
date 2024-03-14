@@ -87,7 +87,7 @@ In this example, the filler files required were:<br>
 [sparefile_conc2_bin4.fastq.gz](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/sparefile_conc2_bin4.fastq.gz)<br>
 [sparefile_conc3_bin4.fastq.gz](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/sparefile_conc3_bin4.fastq.gz)<br>
 
-## Workflow
+## Snakemake Workflow
 
 Use the `snakemake` environment:
 
@@ -111,3 +111,5 @@ In the same directory, run:
 ```
 rstudio FcgR2b_compute_binding_Kd.Rmd
 ```
+## Key Output
+
