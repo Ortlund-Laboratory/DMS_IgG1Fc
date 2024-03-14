@@ -99,9 +99,9 @@ Run `snakemake` using specified number of cores:
 
 ## Key Output
 
-[results/counts/barcode_fates.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/results/counts/barcode_fates.csv)<br>
+[results/counts/barcode_fates.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/results/counts/barcode_fates.csv)<br>
 Tally of barcodes classified and filtered according to quality.<br>
-[results/counts/variant_counts.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/results/counts/variant_counts.csv)<br>
+**results/counts/variant_counts.csv** (give link here)<br>
 Tally of individual barcode counts for each sample.<br>
 
 
