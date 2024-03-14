@@ -14,7 +14,7 @@ Builds a barcode variant table based on the data from the processed PacBio CCSs.
 Converts barcodes located at the R2 end to the R1 end by taking the reverse complement. This allows the barcodes to be read and parsed correctly by the [illuminabarcodeparser](https://jbloomlab.github.io/dms_variants/dms_variants.illuminabarcodeparser.html#dms_variants.illuminabarcodeparser.IlluminaBarcodeParser) algorithm.<br>
 [count_variants.ipynb](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/count_variants.ipynb)<br>
 Counts the number of times a barcode (and by extension a variant) appears in each Illumina barcode sequencing sample.<br>
-**scripts/run_nb.py**<br>
+[scripts/run_nb.py](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/scripts/run_nb.py)<br>
 Runs Jupyter notebooks and creates Markdown output.<br>
 **data/feature_parse_specs.yaml**<br>
 Script for controlling the sequence parsing strategy.<br>
