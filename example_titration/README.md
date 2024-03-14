@@ -137,8 +137,9 @@ sort -t',' -k 2 mutation_to_Ka.csv > sorted_mutation_to_Ka.csv
 ## Grouping Barcodes Key Output
 
 [results/binding_Kds/mutation_to_Ka.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/results/binding_Kds/mutation_to_Ka.csv)<br>
-Log of *K*<sub>a</sub> (where log*K*<sub>a</sub> = -log*K*<sub>D</sub>) values for each single-point mutant. *K*<sub>a</sub> values were used to avoid negative signs (increased *K*<sub>a</sub> denotes stronger binding, decreased *K*<sub>a</sub> denotes weaker binding). In the first column, residues are numbered from 1. In our case, we were investigating Fc from the 216th residue. Therefore, the numbers in column 3 correspond to the true index of the residue.
-
+Log of *K*<sub>a</sub> (where log*K*<sub>a</sub> = -log*K*<sub>D</sub>) values for each single-point mutant. *K*<sub>a</sub> values were used to avoid negative signs (increased *K*<sub>a</sub> denotes stronger binding, decreased *K*<sub>a</sub> denotes weaker binding). In the first column, residues are numbered from 1. In our case, we were investigating Fc from the 216th residue. Therefore, the numbers in column 3 correspond to the true index of the residue.<br>
+[results/binding_Kds/sorted_mutation_to_Ka.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/results/binding_Kds/sorted_mutation_to_Ka.csv)<br>
+Log of *K*<sub>a</sub> values for each single-point mutant, sorted from weakest to strongest binders.<br>
 
 ## Data Visualization Workflow
 
