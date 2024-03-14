@@ -26,3 +26,22 @@ List of Illumina barcode samples to be analyzed by the snakemake workflow.<br>
 Processed PacBio CCSs, generated from our [PacBio_Library_Sequencing](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/PacBio_Library_Sequencing) routine. Ensure the library is consistent with those used for the assay.<br>
 **data/wildtype_sequence.fasta**<br>
 Fc wildtype sequence.<br>
+
+### Sequencing Data
+
+The workflow operates on Illumina barcode sequencing data in fastq.gz format and these files are kept compressed throughout. File location and name should match the listings given in **data/barcode_runs.csv**. These files are too large to be contained in GitHub, and so are found, respectively, at:<br>
+**p23096-s001_1-1_S212_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s002_1-2_S213_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s003_1-3_S214_L002_R2_001.fastq.gz** (give link here)<br>
+etc
+
+## Workflow
+
+Use the `snakemake` environment:
+
+`conda activate snakemake`
+
+Run `snakemake` using specified number of cores:
+
+`snakemake -j 6`
+
