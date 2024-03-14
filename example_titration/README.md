@@ -33,7 +33,43 @@ The workflow operates on Illumina barcode sequencing data in fastq.gz format and
 **p23096-s001_1-1_S212_L002_R2_001.fastq.gz** (give link here)<br>
 **p23096-s002_1-2_S213_L002_R2_001.fastq.gz** (give link here)<br>
 **p23096-s003_1-3_S214_L002_R2_001.fastq.gz** (give link here)<br>
-etc
+**p23096-s004_1-4_S215_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s005_2-1_S216_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s006_2-2_S217_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s007_2-3_S218_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s008_2-4_S219_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s009_3-1_S220_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s010_3-2_S221_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s011_3-3_S222_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s012_3-4_S223_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s013_4-1_S224_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s014_4-2_S225_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s015_4-3_S226_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s016_4-4_S227_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s017_5-1_S228_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s018_5-2_S229_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s019_5-3_S230_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s020_5-4_S231_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s021_6-1_S232_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s022_6-2_S233_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s023_6-3_S234_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s024_6-4_S235_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s025_7-1_S236_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s026_7-2_S237_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s027_7-3_S238_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s028_7-4_S239_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s029_8-1_S240_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s030_8-2_S241_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s031_8-3_S242_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s032_9-1_S243_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s033_9-2_S244_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s034_9-3_S245_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s035_10-1_S246_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s036_10-2_S247_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s037_10-3_S248_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s038_11-1_S249_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s039_11-2_S250_L002_R2_001.fastq.gz** (give link here)<br>
+**p23096-s040_11-3_S251_L002_R2_001.fastq.gz** (give link here)<br>
 
 ## Workflow
 
