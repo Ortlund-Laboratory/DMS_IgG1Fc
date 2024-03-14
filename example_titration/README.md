@@ -129,6 +129,15 @@ grep -vwE "NA|wildtype|>1 nonsynonymous" binding_Kds.csv > trimmed_overall_bindi
 
 Next, use [FcgR2b_combining_barcodes.R](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/results/binding_Kds/FcgR2b_combining_barcodes.R).
 
+Finally,
+```
+sort -t',' -k 2 mutation_to_Ka.csv > sorted_mutation_to_Ka.csv
+```
+
+## Grouping Barcodes Key Output
+
+
+
 ## Data Visualization Workflow
 
 
