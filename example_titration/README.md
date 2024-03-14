@@ -127,7 +127,7 @@ In results/binding_Kds subdirectory, we need to remove unwanted data from our bi
 grep -vwE "NA|wildtype|>1 nonsynonymous" binding_Kds.csv > trimmed_overall_binding_Kds.csv
 ```
 
-
+Next, use [FcgR2b_combining_barcodes.R](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/results/binding_Kds/FcgR2b_combining_barcodes.R).
 
 ## Data Visualization Workflow
 
