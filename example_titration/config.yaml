@@ -1,0 +1,52 @@
+# config for analysis
+
+# most CPUs to ever use at once
+max_cpus: 12
+
+# processed ccs files
+processed_ccs: data/processed_ccs.csv
+
+# list of Illumina sequencing runs of barcodes
+barcode_runs: data/barcode_runs.csv
+rt_barcode_runs: data/rt_barcode_runs.csv
+
+# adk44 script to convert sequences from R2 to R1
+R2_to_R1: R2_to_R1.py
+
+# amplicons sequenced by PacBio
+amplicons: data/PacBio_amplicons.gb
+
+# how to parse the amplicon
+feature_parse_specs: data/feature_parse_specs.yaml
+
+# the primary target for which we are calling mutations
+primary_target: Fc
+
+# wildtype sequence of mutagenized gene
+wildtype_sequence: data/wildtype_sequence.fasta
+
+# Parameters for processing Illumina barcodes, assuming this structure:
+#  [R2 binds] - [upstream] - [barcode] - [downstream] - [R1 binds]
+#  This orientation is hard-wired in the barcode parser, but here it is opposite
+#  Therefore, supplied the "downstream" sequence as reverse complemented upstream
+# Passed to `dms_variants.illuminabarcodeparser.IlluminaBarcodeParser`:
+illumina_barcode_parser_params:
+  upstream: GGAGAGGGGCGGGATCCGC
+  downstream: TTAACGTGGCTTCTTCTGCCACAGCATGATGAGAATAATAAGGGAAATGATAGTGAGTA
+  minq: 20
+  upstream_mismatch: 10
+  downstream_mismatch: 10
+
+# output directories / files
+variants_dir: results/variants
+figs_dir: results/figs
+summary_dir: results/summary
+codon_variant_table: results/prior_DMS_data/codon_variant_table.csv
+counts_dir: results/counts
+variant_counts: results/counts/variant_counts.csv
+nt_variant_table_file: results/variants/nucleotide_variant_table.csv
+Titeseq_Kds_dir: results/binding_Kds
+Titeseq_Kds_file: results/binding_Kds/binding_Kds.csv
+
+# max error rate in gene / barcode CCSs retained for consensu building
+max_error_rate: 0.0001
