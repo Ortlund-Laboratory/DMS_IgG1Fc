@@ -27,7 +27,7 @@ Processed PacBio CCSs, generated from our [PacBio_Library_Sequencing](https://gi
 [data/wildtype_sequence.fasta](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/data/wildtype_sequence.fasta)<br>
 Fc wildtype sequence.<br>
 [FcgR2b_compute_binding_Kd.Rmd](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/FcgR2b_compute_binding_Kd.Rmd)<br>
-Converts barcode counts into barcode *K*<sub>D</sub>s. Also, if required, can do weighted averaging of barcodes to give binding curves for selected variants.
+Converts barcode counts into barcode *K*<sub>D</sub>s. Also, if required, can do weighted averaging of barcodes to give binding curves for selected variants.<br>
 
 ### Sequencing Data
 
@@ -116,3 +116,5 @@ rstudio FcgR2b_compute_binding_Kd.Rmd
 
 ## Rmd Key Output
 
+[binding_Kds.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/results/binding_Kds/binding_Kds.csv)<br>
+Log of calculated *K*<sub>D</sub> values for each barcode.
