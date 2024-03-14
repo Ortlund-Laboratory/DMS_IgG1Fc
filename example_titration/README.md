@@ -10,7 +10,7 @@ Gives overall instructions for the `snakemake` workflow.<br>
 Configuration script controlling variables used by Jupyter notebooks.<br>
 [build_variants.ipynb](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/build_variants.ipynb)<br>
 Builds a barcode variant table based on the data from the processed PacBio CCSs.<br>
-**R2_to_R1.py**<br>
+[R2_to_R1.py](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/R2_to_R1.py)<br>
 Converts barcodes located at the R2 end to the R1 end by taking the reverse complement. This allows the barcodes to be read and parsed correctly by the [illuminabarcodeparser](https://jbloomlab.github.io/dms_variants/dms_variants.illuminabarcodeparser.html#dms_variants.illuminabarcodeparser.IlluminaBarcodeParser) algorithm.<br>
 [count_variants.ipynb](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/count_variants.ipynb)<br>
 Counts the number of times a barcode (and by extension a variant) appears in each Illumina barcode sequencing sample.<br>
