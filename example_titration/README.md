@@ -4,7 +4,7 @@ Fc variant binding to FcγR2b was investigated, with assays run against a range 
 
 ## Input Files Required
 
-**SnakeFile**<br>
+[SnakeFile](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/Snakefile)<br>
 Gives overall instructions for the `snakemake` workflow.<br>
 **config.yaml**<br>
 Configuration script controlling variables used by Jupyter notebooks.<br>
