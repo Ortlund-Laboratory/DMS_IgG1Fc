@@ -81,6 +81,9 @@ FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 ```
 This will ensure the code runs smoothly but will not affect analysis since there is no sequence in the library which contains so many sequential Gs.
 
+In this example, the filler files required were:
+[sparefile_conc0_bin4.fastq.gz](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/sparefile_conc0_bin4.fastq.gz)<br>
+
 
 ## Workflow
 
