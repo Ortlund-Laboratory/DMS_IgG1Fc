@@ -119,6 +119,10 @@ rstudio FcgR2b_compute_binding_Kd.Rmd
 [binding_Kds.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/results/binding_Kds/binding_Kds.csv)<br>
 Log of calculated *K*<sub>D</sub> values for each barcode.<br>
 
+## Grouping Barcodes Workflow
+
+
+
 ## Data Visualization Workflow
 
 
