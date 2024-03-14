@@ -18,7 +18,7 @@ Counts the number of times a barcode (and by extension a variant) appears in eac
 Runs Jupyter notebooks and creates Markdown output.<br>
 [data/feature_parse_specs.yaml](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/data/feature_parse_specs.yaml)<br>
 Script for controlling the sequence parsing strategy.<br>
-**data/PacBio_amplicons.gb**<br>
+[data/PacBio_amplicons.gb](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/data/PacBio_amplicons.gb)<br>
 GeneBank data file describing sequence features.<br>
 **data/barcode_runs.csv**<br>
 List of Illumina barcode samples to be analyzed by the snakemake workflow.<br>
