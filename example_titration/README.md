@@ -116,10 +116,16 @@ rstudio FcgR2b_compute_binding_Kd.Rmd
 
 ## *K*<sub>D</sub> Generation Key Output
 
-[binding_Kds.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/results/binding_Kds/binding_Kds.csv)<br>
+[results/binding_Kds/binding_Kds.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/results/binding_Kds/binding_Kds.csv)<br>
 Log of calculated *K*<sub>D</sub> values for each barcode.<br>
 
 ## Grouping Barcodes Workflow
+
+In results/binding_Kds subdirectory, we need to remove unwanted data from our binding_Kds.csv file before using it to combine barcodes. We wish to remove lines with NA as this suggests the *K*<sub>D</sub> fitting procedure did not work. Also, we wish to remove lines containing 'wildtype' and '<1 nonsynonymous' strings, as we only wish to look at single point mutational results for our in-depth analysis.
+
+```
+grep -vwE "NA|wildtype|>1 nonsynonymous" binding_Kds.csv > trimmed_overall_binding_Kds.csv
+```
 
 
 
