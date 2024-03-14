@@ -15,7 +15,7 @@ Converts barcodes located at the R2 end to the R1 end by taking the reverse comp
 [count_variants.ipynb](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/count_variants.ipynb)<br>
 Counts the number of times a barcode (and by extension a variant) appears in each Illumina barcode sequencing sample.<br>
 [scripts/run_nb.py](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/scripts/run_nb.py)<br>
-Runs Jupyter notebooks and creates Mardown output.<br>
+Runs Jupyter notebooks and creates Markdown output.<br>
 [data/feature_parse_specs.yaml](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/data/feature_parse_specs.yaml)<br>
 Script for controlling the sequence parsing strategy.<br>
 [data/PacBio_amplicons.gb](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_enrichment_escape/data/PacBio_amplicons.gb)<br>
