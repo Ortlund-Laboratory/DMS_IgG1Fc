@@ -106,7 +106,7 @@ Tally of barcodes classified and filtered according to quality.<br>
 **results/counts/variant_counts.csv** (give link here)<br>
 Tally of individual barcode counts for each sample.<br>
 
-## *K*<sub>D</sub> Generation & Data Visualization
+## *K*<sub>D</sub> Generation Workflow
 
 In the same directory, run:
 
@@ -114,7 +114,11 @@ In the same directory, run:
 rstudio FcgR2b_compute_binding_Kd.Rmd
 ```
 
-## Rmd Key Output
+## *K*<sub>D</sub> Generation Key Output
 
 [binding_Kds.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/results/binding_Kds/binding_Kds.csv)<br>
-Log of calculated *K*<sub>D</sub> values for each barcode.
+Log of calculated *K*<sub>D</sub> values for each barcode.<br>
+
+## Data Visualization Workflow
+
+
