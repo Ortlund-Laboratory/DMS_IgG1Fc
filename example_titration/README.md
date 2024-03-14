@@ -15,7 +15,7 @@ Converts barcodes located at the R2 end to the R1 end by taking the reverse comp
 **count_variants.ipynb**<br>
 Counts the number of times a barcode (and by extension a variant) appears in each Illumina barcode sequencing sample.<br>
 **scripts/run_nb.py**<br>
-Runs Jupyter notebooks and creates Mardown output.<br>
+Runs Jupyter notebooks and creates Markdown output.<br>
 **data/feature_parse_specs.yaml**<br>
 Script for controlling the sequence parsing strategy.<br>
 **data/PacBio_amplicons.gb**<br>
