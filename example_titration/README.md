@@ -143,4 +143,4 @@ Log of *K*<sub>a</sub> values for each single-point mutant, sorted from weakest 
 
 ## Data Visualization Workflow
 
-Create a new [heatmap](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/example_titration/heatmap) directory, and copy [mutation_to_Ka.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/results/binding_Kds/mutation_to_Ka.csv). Ensure **Rscript** and **Fc_prot.fasta** are also in this directory. 
+Create a new [heatmap](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/example_titration/heatmap) directory, and copy [mutation_to_Ka.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/results/binding_Kds/mutation_to_Ka.csv). Ensure [FcgR2b_create_Ka_heatmap.R](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/heatmap/FcgR2b_create_Ka_heatmap.R) and **Fc_prot.fasta** are also in this directory. 
