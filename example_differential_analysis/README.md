@@ -12,3 +12,11 @@ This is the output from our FcgR2a-131H titration analysis, renamed from **mutat
 Script for generating the difference in log*K*<sub>a</sub> values for each Fc mutation with respect to the two receptors being compared. Ensure that the log*K*<sub>a</sub> values for WT Fc binding to each receptor is correctly inputted as this is important for normalization.<br>
 [Fc_prot.fasta](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_differential_analysis/Fc_prot.fasta)<br>
 Amino acid sequence for WT Fc. This is required to complete the heatmap.<br>
+
+## Workflow
+
+```
+rstudio FcgR2b-FcgR2a-131H_differential_analysis.R
+```
+Then, if you wish to organize your results from most FcgR2a-131H favoring to FcgR2b favoring:
+sort -t',' -k 4 -g FcgR2b-FcgR2a-131H_Ka_fractions.csv > sorted_FcgR2b-FcgR2a-131H_Ka_fractions.csv
