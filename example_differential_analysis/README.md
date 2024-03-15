@@ -29,3 +29,5 @@ sort -t',' -k 4 -g FcgR2b-FcgR2a-131H_Ka_fractions.csv > sorted_FcgR2b-FcgR2a-13
 
 [FcgR2b-FcgR2a-131H_Ka_fractions.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_differential_analysis/FcgR2b-FcgR2a-131H_Ka_fractions.csv)<br>
 Differential FcgR2b-FcgR2a-131H log*K*<sub>a</sub> values for each Fc mutation, organized in site order.<br>
+[sorted_FcgR2b-FcgR2a-131H_Ka_fractions.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_differential_analysis/sorted_FcgR2b-FcgR2a-131H_Ka_fractions.csv)<br>
+Differential FcgR2b-FcgR2a-131H log*K*<sub>a</sub> values for each Fc mutation, organized from most FcgR2a-131H favoring to most FcgR2b favoring.<br>
