@@ -33,3 +33,5 @@ Differential FcgR2b-FcgR2a-131H log*K*<sub>a</sub> values for each Fc mutation.<
 Differential FcgR2b-FcgR2a-131H log*K*<sub>a</sub> values for each Fc mutation, organized from most FcgR2a-131H favoring to most FcgR2b favoring.<br>
 [FcgR2b-FcgR2a-131H_average_Ka.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_differential_analysis/FcgR2b-FcgR2a-131H_average_Ka.csv)<br>
 Differential FcgR2b-FcgR2a-131H log*K*<sub>a</sub> values averaged over each Fc site.
+[FcgR2b-FcgR2a-131H_Normalized_LogKa_Heatmap01.png](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_differential_analysis/FcgR2b-FcgR2a-131H_Normalized_LogKa_Heatmap01.png)<br>
+Heatmap of differential FcgR2b-FcgR2a-131H log*K*<sub>a</sub> values for each Fc mutation. Green points denote mutations which favor FcgR2b over FcgR2a-131H compared to WT, and pink points denote mutations which favor FcgR2a-131H.<br>
