@@ -1,0 +1,40 @@
+#Set custom colors with RGB:
+set ray_shadow, 0
+#Set sphere radius:
+set sphere_scale, 0.5
+set ray_trace_mode, 1
+set_color red_1, [77,172,38]
+set_color red_2, [208,28,139]
+set_color grey_1, [217,217,217]
+set_color grey_2, [150,150,150]
+color grey_1, Fc_chA
+color grey_2, Fc_chB
+#Select sites to highlight with spheres:
+create spheresB1, Fc_chB and (resi 0 or resi 242 or resi 254 or resi 292 or resi 324 )
+set sphere_color, red_1, spheresB1
+hide everything, spheresB1
+show spheres, spheresB1 and name CA
+create spheresB2, Fc_chB and (resi 0 or resi 229 or resi 232 or resi 233 or resi 234 or resi 235 or resi 237 or resi 238 or resi 239 or resi 241 or resi 257 or resi 263 or resi 264 or resi 265 or resi 266 or resi 267 or resi 269 or resi 270 or resi 273 or resi 297 or resi 298 or resi 299 or resi 313 or resi 323 or resi 325 or resi 326 or resi 327 or resi 328 or resi 329 or resi 331 or resi 429 )
+hide everything, spheresB2
+show spheres, spheresB2 and name CA
+set sphere_color, red_2, spheresB2
+create surface_B, Fc_chB
+select surf_B1, surface_B and (resi 0 or resi 242 or resi 254 or resi 292 or resi 324 )
+select surf_B2, surface_B and (resi 0 or resi 229 or resi 232 or resi 233 or resi 234 or resi 235 or resi 237 or resi 238 or resi 239 or resi 241 or resi 257 or resi 263 or resi 264 or resi 265 or resi 266 or resi 267 or resi 269 or resi 270 or resi 273 or resi 297 or resi 298 or resi 299 or resi 313 or resi 323 or resi 325 or resi 326 or resi 327 or resi 328 or resi 329 or resi 331 or resi 429 )
+color red_1, surf_B1
+color red_2, surf_B2
+show surface, surface_B
+create spheresA1, Fc_chA and (resi 0 or resi 242 or resi 254 or resi 292 or resi 324 )
+set sphere_color, red_1, spheresA1
+hide everything, spheresA1
+show spheres, spheresA1 and name CA
+create spheresA2, Fc_chA and (resi 0 or resi 229 or resi 232 or resi 233 or resi 234 or resi 235 or resi 237 or resi 238 or resi 239 or resi 241 or resi 257 or resi 263 or resi 264 or resi 265 or resi 266 or resi 267 or resi 269 or resi 270 or resi 273 or resi 297 or resi 298 or resi 299 or resi 313 or resi 323 or resi 325 or resi 326 or resi 327 or resi 328 or resi 329 or resi 331 or resi 429 )
+hide everything, spheresA2
+show spheres, spheresA2 and name CA
+set sphere_color, red_2, spheresA2
+create surface_A, Fc_chA
+select surf_A1, surface_A and (resi 0 or resi 242 or resi 254 or resi 292 or resi 324 )
+select surf_A2, surface_A and (resi 0 or resi 229 or resi 232 or resi 233 or resi 234 or resi 235 or resi 237 or resi 238 or resi 239 or resi 241 or resi 257 or resi 263 or resi 264 or resi 265 or resi 266 or resi 267 or resi 269 or resi 270 or resi 273 or resi 297 or resi 298 or resi 299 or resi 313 or resi 323 or resi 325 or resi 326 or resi 327 or resi 328 or resi 329 or resi 331 or resi 429 )
+color red_1, surf_A1
+color red_2, surf_A2
+show surface, surface_A
