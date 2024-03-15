@@ -1,0 +1,221 @@
+fate,count,library,sample
+valid barcode,3420207,Fc-Lib01,SortSeq_bin1
+invalid barcode,2105047,Fc-Lib01,SortSeq_bin1
+low quality barcode,875768,Fc-Lib01,SortSeq_bin1
+unparseable barcode,330251,Fc-Lib01,SortSeq_bin1
+failed chastity filter,0,Fc-Lib01,SortSeq_bin1
+valid barcode,3072812,Fc-Lib01,SortSeq_bin2
+invalid barcode,1926703,Fc-Lib01,SortSeq_bin2
+low quality barcode,802621,Fc-Lib01,SortSeq_bin2
+unparseable barcode,372977,Fc-Lib01,SortSeq_bin2
+failed chastity filter,0,Fc-Lib01,SortSeq_bin2
+unparseable barcode,1,Fc-Lib01,SortSeq_bin3
+failed chastity filter,0,Fc-Lib01,SortSeq_bin3
+invalid barcode,0,Fc-Lib01,SortSeq_bin3
+low quality barcode,0,Fc-Lib01,SortSeq_bin3
+valid barcode,0,Fc-Lib01,SortSeq_bin3
+unparseable barcode,1,Fc-Lib01,SortSeq_bin4
+failed chastity filter,0,Fc-Lib01,SortSeq_bin4
+invalid barcode,0,Fc-Lib01,SortSeq_bin4
+low quality barcode,0,Fc-Lib01,SortSeq_bin4
+valid barcode,0,Fc-Lib01,SortSeq_bin4
+valid barcode,2914149,Fc-Lib01,TiteSeq_0.002410_bin1
+invalid barcode,1797131,Fc-Lib01,TiteSeq_0.002410_bin1
+low quality barcode,913311,Fc-Lib01,TiteSeq_0.002410_bin1
+unparseable barcode,293083,Fc-Lib01,TiteSeq_0.002410_bin1
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.002410_bin1
+valid barcode,3149219,Fc-Lib01,TiteSeq_0.002410_bin2
+invalid barcode,1938659,Fc-Lib01,TiteSeq_0.002410_bin2
+low quality barcode,840000,Fc-Lib01,TiteSeq_0.002410_bin2
+unparseable barcode,305503,Fc-Lib01,TiteSeq_0.002410_bin2
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.002410_bin2
+unparseable barcode,1,Fc-Lib01,TiteSeq_0.002410_bin3
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.002410_bin3
+invalid barcode,0,Fc-Lib01,TiteSeq_0.002410_bin3
+low quality barcode,0,Fc-Lib01,TiteSeq_0.002410_bin3
+valid barcode,0,Fc-Lib01,TiteSeq_0.002410_bin3
+unparseable barcode,1,Fc-Lib01,TiteSeq_0.002410_bin4
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.002410_bin4
+invalid barcode,0,Fc-Lib01,TiteSeq_0.002410_bin4
+low quality barcode,0,Fc-Lib01,TiteSeq_0.002410_bin4
+valid barcode,0,Fc-Lib01,TiteSeq_0.002410_bin4
+valid barcode,2878900,Fc-Lib01,TiteSeq_0.007240_bin1
+invalid barcode,1771131,Fc-Lib01,TiteSeq_0.007240_bin1
+low quality barcode,712656,Fc-Lib01,TiteSeq_0.007240_bin1
+unparseable barcode,273303,Fc-Lib01,TiteSeq_0.007240_bin1
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.007240_bin1
+valid barcode,2893681,Fc-Lib01,TiteSeq_0.007240_bin2
+invalid barcode,1770754,Fc-Lib01,TiteSeq_0.007240_bin2
+low quality barcode,738330,Fc-Lib01,TiteSeq_0.007240_bin2
+unparseable barcode,275536,Fc-Lib01,TiteSeq_0.007240_bin2
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.007240_bin2
+valid barcode,1563177,Fc-Lib01,TiteSeq_0.007240_bin3
+invalid barcode,948554,Fc-Lib01,TiteSeq_0.007240_bin3
+unparseable barcode,822979,Fc-Lib01,TiteSeq_0.007240_bin3
+low quality barcode,411194,Fc-Lib01,TiteSeq_0.007240_bin3
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.007240_bin3
+unparseable barcode,1,Fc-Lib01,TiteSeq_0.007240_bin4
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.007240_bin4
+invalid barcode,0,Fc-Lib01,TiteSeq_0.007240_bin4
+low quality barcode,0,Fc-Lib01,TiteSeq_0.007240_bin4
+valid barcode,0,Fc-Lib01,TiteSeq_0.007240_bin4
+valid barcode,2863612,Fc-Lib01,TiteSeq_0.02173_bin1
+invalid barcode,1823593,Fc-Lib01,TiteSeq_0.02173_bin1
+low quality barcode,797222,Fc-Lib01,TiteSeq_0.02173_bin1
+unparseable barcode,284780,Fc-Lib01,TiteSeq_0.02173_bin1
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.02173_bin1
+valid barcode,2897006,Fc-Lib01,TiteSeq_0.02173_bin2
+invalid barcode,1762536,Fc-Lib01,TiteSeq_0.02173_bin2
+low quality barcode,753668,Fc-Lib01,TiteSeq_0.02173_bin2
+unparseable barcode,280342,Fc-Lib01,TiteSeq_0.02173_bin2
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.02173_bin2
+valid barcode,3136884,Fc-Lib01,TiteSeq_0.02173_bin3
+invalid barcode,1959940,Fc-Lib01,TiteSeq_0.02173_bin3
+low quality barcode,1075000,Fc-Lib01,TiteSeq_0.02173_bin3
+unparseable barcode,418270,Fc-Lib01,TiteSeq_0.02173_bin3
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.02173_bin3
+unparseable barcode,2391857,Fc-Lib01,TiteSeq_0.02173_bin4
+valid barcode,907332,Fc-Lib01,TiteSeq_0.02173_bin4
+invalid barcode,551145,Fc-Lib01,TiteSeq_0.02173_bin4
+low quality barcode,239708,Fc-Lib01,TiteSeq_0.02173_bin4
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.02173_bin4
+valid barcode,2705547,Fc-Lib01,TiteSeq_0.06520_bin1
+invalid barcode,1827200,Fc-Lib01,TiteSeq_0.06520_bin1
+low quality barcode,781065,Fc-Lib01,TiteSeq_0.06520_bin1
+unparseable barcode,334664,Fc-Lib01,TiteSeq_0.06520_bin1
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.06520_bin1
+valid barcode,2619250,Fc-Lib01,TiteSeq_0.06520_bin2
+invalid barcode,1597917,Fc-Lib01,TiteSeq_0.06520_bin2
+low quality barcode,662072,Fc-Lib01,TiteSeq_0.06520_bin2
+unparseable barcode,252143,Fc-Lib01,TiteSeq_0.06520_bin2
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.06520_bin2
+valid barcode,3018551,Fc-Lib01,TiteSeq_0.06520_bin3
+invalid barcode,1857015,Fc-Lib01,TiteSeq_0.06520_bin3
+low quality barcode,800730,Fc-Lib01,TiteSeq_0.06520_bin3
+unparseable barcode,292554,Fc-Lib01,TiteSeq_0.06520_bin3
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.06520_bin3
+valid barcode,1983313,Fc-Lib01,TiteSeq_0.06520_bin4
+invalid barcode,1243227,Fc-Lib01,TiteSeq_0.06520_bin4
+unparseable barcode,1160490,Fc-Lib01,TiteSeq_0.06520_bin4
+low quality barcode,528488,Fc-Lib01,TiteSeq_0.06520_bin4
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.06520_bin4
+valid barcode,2885537,Fc-Lib01,TiteSeq_0.1956_bin1
+invalid barcode,2034495,Fc-Lib01,TiteSeq_0.1956_bin1
+low quality barcode,827508,Fc-Lib01,TiteSeq_0.1956_bin1
+unparseable barcode,374568,Fc-Lib01,TiteSeq_0.1956_bin1
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.1956_bin1
+valid barcode,3193233,Fc-Lib01,TiteSeq_0.1956_bin2
+invalid barcode,1956242,Fc-Lib01,TiteSeq_0.1956_bin2
+low quality barcode,781252,Fc-Lib01,TiteSeq_0.1956_bin2
+unparseable barcode,311013,Fc-Lib01,TiteSeq_0.1956_bin2
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.1956_bin2
+valid barcode,3134521,Fc-Lib01,TiteSeq_0.1956_bin3
+invalid barcode,1910516,Fc-Lib01,TiteSeq_0.1956_bin3
+low quality barcode,809261,Fc-Lib01,TiteSeq_0.1956_bin3
+unparseable barcode,285541,Fc-Lib01,TiteSeq_0.1956_bin3
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.1956_bin3
+valid barcode,2510662,Fc-Lib01,TiteSeq_0.1956_bin4
+invalid barcode,1577654,Fc-Lib01,TiteSeq_0.1956_bin4
+low quality barcode,645021,Fc-Lib01,TiteSeq_0.1956_bin4
+unparseable barcode,579192,Fc-Lib01,TiteSeq_0.1956_bin4
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.1956_bin4
+valid barcode,2802706,Fc-Lib01,TiteSeq_0.5868_bin1
+invalid barcode,2085601,Fc-Lib01,TiteSeq_0.5868_bin1
+low quality barcode,775017,Fc-Lib01,TiteSeq_0.5868_bin1
+unparseable barcode,582559,Fc-Lib01,TiteSeq_0.5868_bin1
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.5868_bin1
+valid barcode,2851388,Fc-Lib01,TiteSeq_0.5868_bin2
+invalid barcode,1833043,Fc-Lib01,TiteSeq_0.5868_bin2
+low quality barcode,741466,Fc-Lib01,TiteSeq_0.5868_bin2
+unparseable barcode,277899,Fc-Lib01,TiteSeq_0.5868_bin2
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.5868_bin2
+valid barcode,2788847,Fc-Lib01,TiteSeq_0.5868_bin3
+invalid barcode,1668404,Fc-Lib01,TiteSeq_0.5868_bin3
+low quality barcode,779078,Fc-Lib01,TiteSeq_0.5868_bin3
+unparseable barcode,273096,Fc-Lib01,TiteSeq_0.5868_bin3
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.5868_bin3
+valid barcode,3146334,Fc-Lib01,TiteSeq_0.5868_bin4
+invalid barcode,1947675,Fc-Lib01,TiteSeq_0.5868_bin4
+low quality barcode,879103,Fc-Lib01,TiteSeq_0.5868_bin4
+unparseable barcode,334343,Fc-Lib01,TiteSeq_0.5868_bin4
+failed chastity filter,0,Fc-Lib01,TiteSeq_0.5868_bin4
+unparseable barcode,2877435,Fc-Lib01,TiteSeq_01.76_bin1
+valid barcode,747358,Fc-Lib01,TiteSeq_01.76_bin1
+invalid barcode,464203,Fc-Lib01,TiteSeq_01.76_bin1
+low quality barcode,230031,Fc-Lib01,TiteSeq_01.76_bin1
+failed chastity filter,0,Fc-Lib01,TiteSeq_01.76_bin1
+valid barcode,2503930,Fc-Lib01,TiteSeq_01.76_bin2
+invalid barcode,1782627,Fc-Lib01,TiteSeq_01.76_bin2
+low quality barcode,758068,Fc-Lib01,TiteSeq_01.76_bin2
+unparseable barcode,323040,Fc-Lib01,TiteSeq_01.76_bin2
+failed chastity filter,0,Fc-Lib01,TiteSeq_01.76_bin2
+valid barcode,3097214,Fc-Lib01,TiteSeq_01.76_bin3
+invalid barcode,1883081,Fc-Lib01,TiteSeq_01.76_bin3
+low quality barcode,797782,Fc-Lib01,TiteSeq_01.76_bin3
+unparseable barcode,283142,Fc-Lib01,TiteSeq_01.76_bin3
+failed chastity filter,0,Fc-Lib01,TiteSeq_01.76_bin3
+valid barcode,3575739,Fc-Lib01,TiteSeq_01.76_bin4
+invalid barcode,2168220,Fc-Lib01,TiteSeq_01.76_bin4
+low quality barcode,885077,Fc-Lib01,TiteSeq_01.76_bin4
+unparseable barcode,346410,Fc-Lib01,TiteSeq_01.76_bin4
+failed chastity filter,0,Fc-Lib01,TiteSeq_01.76_bin4
+unparseable barcode,1,Fc-Lib01,TiteSeq_05.28_bin1
+failed chastity filter,0,Fc-Lib01,TiteSeq_05.28_bin1
+invalid barcode,0,Fc-Lib01,TiteSeq_05.28_bin1
+low quality barcode,0,Fc-Lib01,TiteSeq_05.28_bin1
+valid barcode,0,Fc-Lib01,TiteSeq_05.28_bin1
+valid barcode,2576674,Fc-Lib01,TiteSeq_05.28_bin2
+invalid barcode,1954821,Fc-Lib01,TiteSeq_05.28_bin2
+low quality barcode,749142,Fc-Lib01,TiteSeq_05.28_bin2
+unparseable barcode,354038,Fc-Lib01,TiteSeq_05.28_bin2
+failed chastity filter,0,Fc-Lib01,TiteSeq_05.28_bin2
+valid barcode,3217697,Fc-Lib01,TiteSeq_05.28_bin3
+invalid barcode,2051849,Fc-Lib01,TiteSeq_05.28_bin3
+low quality barcode,817995,Fc-Lib01,TiteSeq_05.28_bin3
+unparseable barcode,343005,Fc-Lib01,TiteSeq_05.28_bin3
+failed chastity filter,0,Fc-Lib01,TiteSeq_05.28_bin3
+valid barcode,3225532,Fc-Lib01,TiteSeq_05.28_bin4
+invalid barcode,1955800,Fc-Lib01,TiteSeq_05.28_bin4
+low quality barcode,925647,Fc-Lib01,TiteSeq_05.28_bin4
+unparseable barcode,309059,Fc-Lib01,TiteSeq_05.28_bin4
+failed chastity filter,0,Fc-Lib01,TiteSeq_05.28_bin4
+unparseable barcode,2849147,Fc-Lib01,TiteSeq_15.84_bin1
+valid barcode,53182,Fc-Lib01,TiteSeq_15.84_bin1
+invalid barcode,28949,Fc-Lib01,TiteSeq_15.84_bin1
+low quality barcode,14754,Fc-Lib01,TiteSeq_15.84_bin1
+failed chastity filter,0,Fc-Lib01,TiteSeq_15.84_bin1
+valid barcode,2835265,Fc-Lib01,TiteSeq_15.84_bin2
+invalid barcode,2302670,Fc-Lib01,TiteSeq_15.84_bin2
+low quality barcode,925627,Fc-Lib01,TiteSeq_15.84_bin2
+unparseable barcode,454476,Fc-Lib01,TiteSeq_15.84_bin2
+failed chastity filter,0,Fc-Lib01,TiteSeq_15.84_bin2
+valid barcode,3019133,Fc-Lib01,TiteSeq_15.84_bin3
+invalid barcode,2049967,Fc-Lib01,TiteSeq_15.84_bin3
+low quality barcode,763457,Fc-Lib01,TiteSeq_15.84_bin3
+unparseable barcode,374074,Fc-Lib01,TiteSeq_15.84_bin3
+failed chastity filter,0,Fc-Lib01,TiteSeq_15.84_bin3
+valid barcode,3114914,Fc-Lib01,TiteSeq_15.84_bin4
+invalid barcode,1878724,Fc-Lib01,TiteSeq_15.84_bin4
+low quality barcode,755242,Fc-Lib01,TiteSeq_15.84_bin4
+unparseable barcode,295207,Fc-Lib01,TiteSeq_15.84_bin4
+failed chastity filter,0,Fc-Lib01,TiteSeq_15.84_bin4
+unparseable barcode,1,Fc-Lib01,TiteSeq_47.53_bin1
+failed chastity filter,0,Fc-Lib01,TiteSeq_47.53_bin1
+invalid barcode,0,Fc-Lib01,TiteSeq_47.53_bin1
+low quality barcode,0,Fc-Lib01,TiteSeq_47.53_bin1
+valid barcode,0,Fc-Lib01,TiteSeq_47.53_bin1
+valid barcode,2366106,Fc-Lib01,TiteSeq_47.53_bin2
+invalid barcode,1892801,Fc-Lib01,TiteSeq_47.53_bin2
+low quality barcode,662358,Fc-Lib01,TiteSeq_47.53_bin2
+unparseable barcode,363157,Fc-Lib01,TiteSeq_47.53_bin2
+failed chastity filter,0,Fc-Lib01,TiteSeq_47.53_bin2
+valid barcode,2739145,Fc-Lib01,TiteSeq_47.53_bin3
+invalid barcode,1894000,Fc-Lib01,TiteSeq_47.53_bin3
+low quality barcode,714183,Fc-Lib01,TiteSeq_47.53_bin3
+unparseable barcode,371113,Fc-Lib01,TiteSeq_47.53_bin3
+failed chastity filter,0,Fc-Lib01,TiteSeq_47.53_bin3
+valid barcode,2951747,Fc-Lib01,TiteSeq_47.53_bin4
+invalid barcode,1789431,Fc-Lib01,TiteSeq_47.53_bin4
+low quality barcode,787245,Fc-Lib01,TiteSeq_47.53_bin4
+unparseable barcode,291410,Fc-Lib01,TiteSeq_47.53_bin4
+failed chastity filter,0,Fc-Lib01,TiteSeq_47.53_bin4
