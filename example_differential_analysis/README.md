@@ -6,3 +6,5 @@ Using the processed titration data, it is possible to determine how different re
 
 [FcgR2b_mutation_to_Ka.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_differential_analysis/FcgR2b_mutation_to_Ka.csv)<br>
 This is the output from our FcgR2b titration analysis, renamed from **mutation_to_Ka.csv** to differentiate it from FcgR2a-131H.<br>
+[FcgR2a-131H_mutation_to_Ka.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_differential_analysis/FcgR2a-131H_mutation_to_Ka.csv)<br.
+This is the output from our FcgR2a-131H titration analysis, renamed from **mutation_to_Ka.csv** to differentiate it from FcgR2b.<br>
