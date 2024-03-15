@@ -85,7 +85,7 @@ PacBio library sequencing is required to connect variants to their respective ba
 
 Input files and scripts differ depending on the type of analysis (enrichment/escape populations or titrations) being performed. Examples for each have been prepared in two relevant subfolders, [example_enrichment_escape](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/example_enrichment_escape) and [example_titration](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/example_titration).
 
-Processed data can also be used to determine how different receptors compare to one another with regard to binding to the Fc mutants. An example of this type of analysis is given in [example_differential_analysis](
+Processed data can also be used to determine how different receptors compare to one another with regard to binding to the Fc mutants. An example of this type of analysis is given in [example_differential_analysis](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/example_differential_analysis).
 
 ## Deposited Data
 
