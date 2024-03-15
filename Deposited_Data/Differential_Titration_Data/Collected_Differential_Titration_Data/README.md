@@ -6,3 +6,5 @@ We were interested in averaging inhibitory FcγR2b response vs each of the activ
 [FcgR2b-FcgR3a-158F_Ka_fractions_na_included.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/Deposited_Data/Differential_Titration_Data/Fc%CE%B3R2b-Fc%CE%B3R3a158F/FcgR2b-FcgR3a-158F_Ka_fractions_na_included.csv)<br>
 [FcgR2b-FcgR3a-158V_Ka_fractions_na_included.csv](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/Deposited_Data/Differential_Titration_Data/Fc%CE%B3R2b-Fc%CE%B3R3a158V/FcgR2b-FcgR3a-158V_Ka_fractions_na_included.csv)<br>
 files and displayed this information in one spreadsheet.
+
+We then calculated an average inhibitory-activating score for each mutation, and sorted by this metric. After a filtering step to ensure that the effect of the mutation was consistent across all of the activating receptors, we then picked the 20 mutations which enhance binding most to the activating receptors at the expense of the inhibitory receptor, and *vice versa*.
