@@ -24,3 +24,6 @@ Then, if you wish to organize your results from most FcgR2a-131H favoring to Fcg
 ```
 sort -t',' -k 4 -g FcgR2b-FcgR2a-131H_Ka_fractions.csv > sorted_FcgR2b-FcgR2a-131H_Ka_fractions.csv
 ```
+
+## Key Output
+
