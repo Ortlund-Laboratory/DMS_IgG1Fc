@@ -153,3 +153,5 @@ rstudio FcgR2b_create_Ka_heatmap.R
 
 [LogKa_Heatmap_final_rep.png](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/heatmap/LogKa_Heatmap_final_rep.png)<br>
 Heatmap of log*K*<sub>a</sub> values for each mutation, with blue denoting enhanced binding with respect to WT, and red denoting weakened binding.<br>
+[LogKa_averagescores.png](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/blob/main/example_titration/heatmap/LogKa_averagescores.png)<br>
+Bar chart of log*K*<sub>a</sub> values, averaged per site.
