@@ -1,4 +1,4 @@
-Need external links for:
+To access the following files, search NCBI SRA Accession 
 
 **p23111-s001_1-1_S30_L004_R2_001.fastq.gz** (give link here)<br>
 **p23111-s002_1-2_S31_L004_R2_001.fastq.gz** (give link here)<br>
