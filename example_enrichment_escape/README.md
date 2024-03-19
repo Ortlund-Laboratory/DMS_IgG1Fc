@@ -35,8 +35,8 @@ The workflow operates on Illumina barcode sequencing data in fastq.gz format and
 **p23042-s001_FcLib-1ref_S22_L001_R2_001.fastq.gz**<br>
 Search NCBI SRA Accession SRR28374936 or click [here](https://www.ncbi.nlm.nih.gov/sra/SRX23979935[accn]).<br>
 
-**p23042-s006_JD280top_S27_L001_R2_001.fastq.gz**
-**p23042-s007_JD280bottom_S28_L001_R2_001.fastq.gz**
+**p23042-s006_JD280top_S27_L001_R2_001.fastq.gz**<br>
+**p23042-s007_JD280bottom_S28_L001_R2_001.fastq.gz**<br>
 For both files, search NCBI SRA Accession SRR28374931 or click [here](https://www.ncbi.nlm.nih.gov/sra/SRX23979940[accn]).<br>
 
 ## Workflow
