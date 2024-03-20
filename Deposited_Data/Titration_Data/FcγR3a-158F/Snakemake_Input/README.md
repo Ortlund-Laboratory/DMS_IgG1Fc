@@ -1,38 +1,38 @@
 The following files are available at [Illumina barcode sequencing IgG1 Fc titration data with FcgR3a-158F](https://www.ncbi.nlm.nih.gov/sra/SRX23990363[accn]) or by searching NCBI SRA Accession SRR28385524.
 
-**p23086-s001_1-1_S89_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s002_1-2_S90_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s003_1-3_S91_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s004_1-4_S92_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s005_2-2_S93_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s006_2-3_S94_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s007_2-4_S95_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s008_3-2_S96_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s009_3-3_S97_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s010_3-4_S98_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s011_4-1_S99_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s012_4-2_S100_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s013_4-3_S101_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s014_4-4_S102_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s015_5-1_S103_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s016_5-2_S104_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s017_5-3_S105_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s018_5-4_S106_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s019_6-1_S107_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s020_6-2_S108_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s021_6-3_S109_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s022_6-4_S110_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s023_7-1_S111_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s024_7-2_S112_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s025_7-3_S113_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s026_8-1_S114_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s027_8-2_S115_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s028_8-3_S116_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s029_9-1_S117_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s030_9-2_S118_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s031_9-3_S119_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s032_10-1_S120_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s033_10-2_S121_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s034_10-3_S122_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s035_11-1_S123_L001_R2_001.fastq.gz** (give link here)<br>
-**p23086-s036_11-2_S124_L001_R2_001.fastq.gz** (give link here)<br>
+**p23086-s001_1-1_S89_L001_R2_001.fastq.gz**<br>
+**p23086-s002_1-2_S90_L001_R2_001.fastq.gz**<br>
+**p23086-s003_1-3_S91_L001_R2_001.fastq.gz**<br>
+**p23086-s004_1-4_S92_L001_R2_001.fastq.gz**<br>
+**p23086-s005_2-2_S93_L001_R2_001.fastq.gz**<br>
+**p23086-s006_2-3_S94_L001_R2_001.fastq.gz**<br>
+**p23086-s007_2-4_S95_L001_R2_001.fastq.gz**<br>
+**p23086-s008_3-2_S96_L001_R2_001.fastq.gz**<br>
+**p23086-s009_3-3_S97_L001_R2_001.fastq.gz**<br>
+**p23086-s010_3-4_S98_L001_R2_001.fastq.gz**<br>
+**p23086-s011_4-1_S99_L001_R2_001.fastq.gz**<br>
+**p23086-s012_4-2_S100_L001_R2_001.fastq.gz**<br>
+**p23086-s013_4-3_S101_L001_R2_001.fastq.gz**<br>
+**p23086-s014_4-4_S102_L001_R2_001.fastq.gz**<br>
+**p23086-s015_5-1_S103_L001_R2_001.fastq.gz**<br>
+**p23086-s016_5-2_S104_L001_R2_001.fastq.gz**<br>
+**p23086-s017_5-3_S105_L001_R2_001.fastq.gz**<br>
+**p23086-s018_5-4_S106_L001_R2_001.fastq.gz**<br>
+**p23086-s019_6-1_S107_L001_R2_001.fastq.gz**<br>
+**p23086-s020_6-2_S108_L001_R2_001.fastq.gz**<br>
+**p23086-s021_6-3_S109_L001_R2_001.fastq.gz**<br>
+**p23086-s022_6-4_S110_L001_R2_001.fastq.gz**<br>
+**p23086-s023_7-1_S111_L001_R2_001.fastq.gz**<br>
+**p23086-s024_7-2_S112_L001_R2_001.fastq.gz**<br>
+**p23086-s025_7-3_S113_L001_R2_001.fastq.gz**<br>
+**p23086-s026_8-1_S114_L001_R2_001.fastq.gz**<br>
+**p23086-s027_8-2_S115_L001_R2_001.fastq.gz**<br>
+**p23086-s028_8-3_S116_L001_R2_001.fastq.gz**<br>
+**p23086-s029_9-1_S117_L001_R2_001.fastq.gz**<br>
+**p23086-s030_9-2_S118_L001_R2_001.fastq.gz**<br>
+**p23086-s031_9-3_S119_L001_R2_001.fastq.gz**<br>
+**p23086-s032_10-1_S120_L001_R2_001.fastq.gz**<br>
+**p23086-s033_10-2_S121_L001_R2_001.fastq.gz**<br>
+**p23086-s034_10-3_S122_L001_R2_001.fastq.gz**<br>
+**p23086-s035_11-1_S123_L001_R2_001.fastq.gz**<br>
+**p23086-s036_11-2_S124_L001_R2_001.fastq.gz**<br>
