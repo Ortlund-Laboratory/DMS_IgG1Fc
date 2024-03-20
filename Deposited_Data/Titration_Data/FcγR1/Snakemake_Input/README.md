@@ -1,4 +1,4 @@
-Need external links for:
+The following files are available at [Illumina barcode sequencing IgG1 Fc titration data with FcgR1](https://www.ncbi.nlm.nih.gov/sra/SRX23990365[accn]) or by searching NCBI SRA Accession SRR28385520.
 
 **p23165-s001_1-3_S41_L001_R2_001.fastq.gz** (give link here)<br>
 **p23165-s002_1-4_S42_L001_R2_001.fastq.gz** (give link here)<br>
