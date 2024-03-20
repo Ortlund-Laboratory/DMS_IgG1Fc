@@ -31,7 +31,7 @@ Converts barcode counts into barcode *K*<sub>D</sub>s. Also, if required, can do
 
 ### Sequencing Data
 
-The workflow operates on Illumina barcode sequencing data in fastq.gz format and these files are kept compressed throughout. File location and name should match the listings given in **data/barcode_runs.csv**. These files are too large to be contained in GitHub, and so are found, respectively, at:<br>
+The workflow operates on Illumina barcode sequencing data in fastq.gz format and these files are kept compressed throughout. File location and name should match the listings given in **data/barcode_runs.csv**. These files are too large to be contained in GitHub, and so are found, respectively, at [Illumina barcode sequencing IgG1 Fc titration data with FcgR2b](https://www.ncbi.nlm.nih.gov/sra/SRX23990362[accn]) or by searching NCBI SRA accession SRR28385523.<br>
 **p23096-s001_1-1_S212_L002_R2_001.fastq.gz** (give link here)<br>
 **p23096-s002_1-2_S213_L002_R2_001.fastq.gz** (give link here)<br>
 **p23096-s003_1-3_S214_L002_R2_001.fastq.gz** (give link here)<br>
