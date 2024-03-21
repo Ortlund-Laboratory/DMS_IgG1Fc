@@ -79,7 +79,7 @@ This error appears in a function which is not necessary for our analysis. Theref
 
 ## Twist Library
 
-A site-saturation library for IgG1 Fc was provided by *TwistBiosciences*. Their final QC report is given in 
+A site-saturation library for IgG1 Fc was provided by *TwistBiosciences*. Their final QC report is given in [Twist_Library_QC](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/Twist_Library_QC).
 
 ## PacBio Library Sequencing
 
