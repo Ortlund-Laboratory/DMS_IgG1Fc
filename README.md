@@ -77,6 +77,10 @@ This error appears in a function which is not necessary for our analysis. Theref
 #}
 ```
 
+## Twist Library
+
+A site-saturation library for IgG1 Fc was provided by *TwistBiosciences*. Their final QC report is given in 
+
 ## PacBio Library Sequencing
 
 PacBio library sequencing is required to connect variants to their respective barcodes. This process is described in [PacBio_Library_Sequencing](https://github.com/Ortlund-Laboratory/DMS_IgG1Fc/tree/main/PacBio_Library_Sequencing).
