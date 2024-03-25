@@ -9,4 +9,4 @@ files and displayed this information in one spreadsheet.
 
 We then calculated an average inhibitory-activating score for each mutation, and sorted by this metric. After a filtering step to ensure that the effect of the mutation was consistent across all of the activating receptors, we then picked the 20 mutations which enhance binding most to the activating receptors at the expense of the inhibitory receptor (highlighted in green at the top of the spreadsheet), and *vice versa* (highlighted in green at the bottom of the spreadsheet).
 
-In addition to a spreadsheet detailing averaging of 2b *versus* all four of the activating receptors studied, we have also added a spreadsheet specific to 2b *versus* the 2a-131R and 3a-158V polymorphs.
+In addition to a spreadsheet detailing averaging of 2b *versus* all four of the activating receptors studied, we have also added a spreadsheet specific to 2b *versus* the 2a-131R and 3a-158F polymorphs.
