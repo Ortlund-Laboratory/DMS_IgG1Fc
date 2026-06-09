@@ -525,5 +525,5 @@ dir.create("output", showWarnings = FALSE)
 
 htmltools::save_html(
   final_page,
-  file = "output/index.html"
+  file = "./index.html"
 )
