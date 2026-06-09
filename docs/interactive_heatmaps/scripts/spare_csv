@@ -1,0 +1,7 @@
+files <- c(
+#  FCGR1 = file.path(data_dir, "fcgr1.csv"),
+#  FCGR2A = file.path(data_dir, "fcgr2a.csv"),
+  FCGR2B = file.path(data_dir, "FcgR2b_fucosminusafucos_fucos_minus_afucos_scores.csv"),
+  FCGR3AF = file.path(data_dir, "FcgR3a158F_fucosminusafucos_fucos_minus_afucos_scores.csv")
+)
+
