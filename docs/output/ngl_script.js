@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   var component = null;
-  window.current_receptor = 'FcgR1_fucos';
+  window.current_receptor = 'FcgR2b';
 
   // -----------------------------
   // LOAD STRUCTURE ONCE ONLY ✅
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
       comp.autoView();
 
       // ✅ Initial highlight
-      applyHighlights('FcgR1_fucos');
+      applyHighlights('FcgR2b');
     })
     .catch(function(err) {
       console.error('❌ Failed to load structure:', err);
@@ -61,7 +61,7 @@ function applyHighlights(receptor) {
   if (keys.includes(receptor)) {
     key = receptor;
   } else {
-    key = keys.find(k => k !== 'FcgR1_fucos');
+    key = keys.find(k => k !== 'FcgR2b');
   }
 
   console.log('Using key:', key);

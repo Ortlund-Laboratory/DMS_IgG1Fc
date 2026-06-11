@@ -7,76 +7,11 @@ library(htmlwidgets)
 
 # -----------------------------
 # 1. Load input files
-
+# -----------------------------
 files <- list(
-
-  # ---- Fucos
-  FcgR1_fucos = "data/FcgR1_fucos_znorm_top_minus_bottom_escape.csv",
-  FcgR2a131H_fucos = "data/FcgR2a131H_fucos_znorm_top_minus_bottom_escape.csv",
-  FcgR2a131R_fucos = "data/FcgR2a131R_fucos_znorm_top_minus_bottom_escape.csv",
-  FcgR2b_fucos = "data/FcgR2b_fucos_znorm_top_minus_bottom_escape.csv",
-  FcgR3a158F_fucos = "data/FcgR3a158F_fucos_znorm_top_minus_bottom_escape.csv",
-  FcgR3a158V_fucos = "data/FcgR3a158V_fucos_znorm_top_minus_bottom_escape.csv",
-
-  # ---- Afucos
-  FcgR2a131H_afucos = "data/FcgR2a131H_afucos_znorm_top_minus_bottom_escape.csv",
-  FcgR2a131R_afucos = "data/FcgR2a131R_afucos_znorm_top_minus_bottom_escape.csv",
-  FcgR2b_afucos = "data/FcgR2b_afucos_znorm_top_minus_bottom_escape.csv",
-  FcgR3a158F_afucos = "data/FcgR3a158F_afucos_znorm_top_minus_bottom_escape.csv",
-  FcgR3a158V_afucos = "data/FcgR3a158V_afucos_znorm_top_minus_bottom_escape.csv",
-
-  # ---- Fucos - Afucos
-  FcgR2a131H__fucos_minus_afucos = "data/FcgR2a131H_fucosminusafucos_znorm_top_minus_bottom_escape.csv",
-  FcgR2a131R_fucos_minus_afucos = "data/FcgR2a131R_fucosminusafucos_znorm_top_minus_bottom_escape.csv",
-  FcgR2b_fucos_minus_afucos = "data/FcgR2b_fucosminusafucos_znorm_top_minus_bottom_escape.csv",
-  FcgR3a158F_fucos_minus_afucos = "data/FcgR3a158F_fucosminusafucos_znorm_top_minus_bottom_escape.csv",
-  FcgR3a158V_fucos_minus_afucos = "data/FcgR3a158V_fucosminusafucos_znorm_top_minus_bottom_escape.csv",
-
-  # ---- Afucos pairwise
-  Afuc_2b_vs_2aH = "data/Afucos_FcgR2b_minus_Afucos_FcgR2a131H_znorm_scores.csv",
-  Afuc_2b_vs_2aR = "data/Afucos_FcgR2b_minus_Afucos_FcgR2a131R_znorm_scores.csv",
-  Afuc_2b_vs_3aF = "data/Afucos_FcgR2b_minus_Afucos_FcgR3a158F_znorm_scores.csv",
-  Afuc_2b_vs_3aV = "data/Afucos_FcgR2b_minus_Afucos_FcgR3a158V_znorm_scores.csv",
-  Afuc_2aH_vs_2aR = "data/Afucos_FcgR2a131H_minus_Afucos_FcgR2a131R_znorm_scores.csv",
-  Afuc_2aH_vs_3aF = "data/Afucos_FcgR2a131H_minus_Afucos_FcgR3a158F_znorm_scores.csv",
-  Afuc_2aH_vs_3aV = "data/Afucos_FcgR2a131H_minus_Afucos_FcgR3a158V_znorm_scores.csv",
-  Afuc_2aR_vs_3aF = "data/Afucos_FcgR2a131R_minus_Afucos_FcgR3a158F_znorm_scores.csv",
-  Afuc_2aR_vs_3aV = "data/Afucos_FcgR2a131R_minus_Afucos_FcgR3a158V_znorm_scores.csv",
-  Afuc_3aF_vs_3aV = "data/Afucos_FcgR3a158F_minus_Afucos_FcgR3a158V_znorm_scores.csv",
-
-  # ---- Fucos pairwise
-  Fuc_2b_vs_2aH = "data/Fucos_FcgR2b_minus_Fucos_FcgR2a131H_znorm_scores.csv",
-  Fuc_2b_vs_2aR = "data/Fucos_FcgR2b_minus_Fucos_FcgR2a131R_znorm_scores.csv",
-  Fuc_2b_vs_3aF = "data/Fucos_FcgR2b_minus_Fucos_FcgR3a158F_znorm_scores.csv",
-  Fuc_2b_vs_3aV = "data/Fucos_FcgR2b_minus_Fucos_FcgR3a158V_znorm_scores.csv",
-  Fuc_2aH_vs_2aR = "data/Fucos_FcgR2a131H_minus_Fucos_FcgR2a131R_znorm_scores.csv",
-  Fuc_2aH_vs_3aF = "data/Fucos_FcgR2a131H_minus_Fucos_FcgR3a158F_znorm_scores.csv",
-  Fuc_2aH_vs_3aV = "data/Fucos_FcgR2a131H_minus_Fucos_FcgR3a158V_znorm_scores.csv",
-  Fuc_2aR_vs_3aF = "data/Fucos_FcgR2a131R_minus_Fucos_FcgR3a158F_znorm_scores.csv",
-  Fuc_2aR_vs_3aV = "data/Fucos_FcgR2a131R_minus_Fucos_FcgR3a158V_znorm_scores.csv",
-  Fuc_3aF_vs_3aV = "data/Fucos_FcgR3a158F_minus_Fucos_FcgR3a158V_znorm_scores.csv",
-
-  # ---- Individual Titrations (all Fucos)
-  FcgR1_fucos_titration = "data/formatted_ordered_FcgR1_mutation_to_Ka.csv",
-  FcgR2a131H_fucos_titration = "data/formatted_ordered_FcgR2a131H_mutation_to_Ka.csv",
-  FcgR2a131R_fucos_titration = "data/formatted_ordered_FcgR2a131R_mutation_to_Ka.csv",
-  FcgR2b_fucos_titration = "data/formatted_ordered_FcgR2b_mutation_to_Ka.csv",
-  FcgR3a158F_fucos_titration = "data/formatted_ordered_FcgR3a158F_mutation_to_Ka.csv",
-  FcgR3a158V_fucos_titration = "data/formatted_ordered_FcgR3a158V_mutation_to_Ka.csv",
-
-  # ---- Differential Titrations (all Fucos)
-  Fuc_titration_2b_vs_2aH = "data/formatted_FcgR2b-FcgR2a-131H_Ka_fractions.csv",
-  Fuc_titration_2b_vs_2aR = "data/formatted_FcgR2b-FcgR2a-131R_Ka_fractions.csv",
-  Fuc_titration_2b_vs_3aF = "data/formatted_FcgR2b-FcgR3a-158F_Ka_fractions.csv",
-  Fuc_titration_2b_vs_3aV = "data/formatted_FcgR2b-FcgR3a-158V_Ka_fractions.csv",
-  Fuc_titration_2aH_vs_2aR = "data/formatted_FcgR2a-131H-FcgR2a-131R_Ka_fractions.csv",
-  Fuc_titration_2aH_vs_3aF = "data/formatted_FcgR2a-131H-FcgR3a-158F_Ka_fractions.csv",
-  Fuc_titration_2aH_vs_3aV = "data/formatted_FcgR2a-131H-FcgR3a-158V_Ka_fractions.csv",
-  Fuc_titration_2aR_vs_3aF = "data/formatted_FcgR2a-131R-FcgR3a-158F_Ka_fractions.csv",
-  Fuc_titration_2aR_vs_3aV = "data/formatted_FcgR2a-131R-FcgR3a-158V_Ka_fractions.csv",
-  Fuc_titration_3aF_vs_3aV = "data/formatted_FcgR3a-158F-FcgR3a-158V_Ka_fractions.csv"
+  FcgR2b = "data/FcgR2b_fucosminusafucos_fucos_minus_afucos_scores.csv",
+  FcgR3a158F = "data/FcgR3a158F_fucosminusafucos_fucos_minus_afucos_scores.csv"
 )
-
 
 df_list <- lapply(names(files), function(rec) {
   d <- read.csv(files[[rec]], stringsAsFactors = FALSE)
