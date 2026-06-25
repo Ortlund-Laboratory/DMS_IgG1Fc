@@ -1,24 +1,62 @@
 import re
+import json
+import os
 
-with open("index.html") as f:
+# ✅ Read HTML
+with open("index.html", "r", encoding="utf-8") as f:
     text = f.read()
 
+# ✅ Find ALL JSON script blocks
 pattern = r'<script[^>]*type="application/json"[^>]*>(.*?)</script>'
+matches = re.findall(pattern, text, re.S)
 
-match = re.search(pattern, text, re.S)
+print(f"✅ Found {len(matches)} JSON blocks")
 
-if match:
-    # 1. Save JSON to file
-    with open("data/heatmap.json", "w") as out:
-        out.write(match.group(1))
+if not matches:
+    raise ValueError("❌ No JSON blocks found")
 
-    # 2. Remove that script block from HTML
-    new_html = re.sub(pattern, '', text, count=1, flags=re.S)
+# ✅ Parse ALL blocks and find the one with real trace data
+selected_json = None
 
-    # 3. Write updated HTML back
-    with open("index.html", "w") as f:
-        f.write(new_html)
+for i, m in enumerate(matches):
+    try:
+        parsed = json.loads(m)
 
-    print("✅ Cut JSON from index.html → data/heatmap.json")
-else:
-    print("❌ No matching script tag found")
+        # ✅ Case 1: list of traces
+        if isinstance(parsed, list):
+            print(f"✅ Block {i} is a list with {len(parsed)} entries")
+            if len(parsed) > 100:  # heuristic: real dataset is large
+                selected_json = parsed
+                print(f"🎯 Selected block {i}")
+                break
+
+        # ✅ Case 2: object with "data"
+        elif isinstance(parsed, dict) and "data" in parsed:
+            print(f"✅ Block {i} has 'data' with {len(parsed['data'])} traces")
+            if len(parsed["data"]) > 100:
+                selected_json = parsed["data"]
+                print(f"🎯 Selected block {i}")
+                break
+
+        # ✅ Case 3: htmlwidgets nested structure
+        elif isinstance(parsed, dict) and "x" in parsed and "data" in parsed["x"]:
+            print(f"✅ Block {i} has nested 'x.data' with {len(parsed['x']['data'])} traces")
+            if len(parsed["x"]["data"]) > 100:
+                selected_json = parsed["x"]["data"]
+                print(f"🎯 Selected block {i}")
+                break
+
+    except Exception:
+        continue
+
+# ✅ Fail clearly if nothing found
+if selected_json is None:
+    raise ValueError("❌ Could not find correct dataset block")
+
+# ✅ Save correct dataset
+os.makedirs("data", exist_ok=True)
+
+with open("data/heatmap.json", "w", encoding="utf-8") as out:
+    json.dump(selected_json, out)
+
+print("✅ Saved FULL dataset to data/heatmap.json")
