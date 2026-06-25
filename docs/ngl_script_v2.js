@@ -117,8 +117,8 @@ function applyHighlights(receptor) {
     }
   }
 */
-
 });
+
 window.highlightFromPlot = function(site) {
 
   if (!window.component) {
@@ -188,5 +188,5 @@ window.updateStructureHighlights = function({ blue, red }) {
       opacity: 0.15
     });
     window.highlightReps.push(rep2);
-  }
+  };
 };
